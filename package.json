@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",
-    "export": "sapper export --entry '/usa' ...",
+    "export": "sapper export --entry '/usa /canada /mexico /costarica /ecuador /europe /about /shop'",
     "start": "node __sapper__/build"
   },
   "dependencies": {
