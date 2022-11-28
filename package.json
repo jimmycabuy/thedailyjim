@@ -10,6 +10,7 @@
     "dev": "sapper dev",
     "build": "sapper build",
     "export": "sapper export --entry '/usa /canada /mexico /costarica /ecuador /europe /about /shop'",
+    "postexport": "mv __sapper__/export/404/index.html __sapper__/export/404.html",
     "start": "node __sapper__/build"
   },
   "dependencies": {
