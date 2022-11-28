@@ -36,7 +36,7 @@
     © {fullmounth}
     {year} by
     <a class="footer_text"
-      href="https://jimmycabuy.herokuapp.com/"
+      href="https://jimmycabuy.com/"
       target="_blank"
       rel="noreferrer"
     >
