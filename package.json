@@ -10,7 +10,6 @@
     "dev": "sapper dev",
     "build": "sapper build",
     "export": "sapper export",
-    "postexport": "mv __sapper__/export/404/index.html __sapper__/export/404.html",
     "start": "node __sapper__/build"
   },
   "dependencies": {
