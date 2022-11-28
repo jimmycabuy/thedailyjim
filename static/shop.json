@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Palm_4",
+    "full_photo": "Palm_4_full",
+    "folder": "shop",
+    "price": 250,
+    "size": "60 cm x 40 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Palm_5",
+    "full_photo": "Palm_5_full",
+    "folder": "shop",
+    "price": 250,
+    "size": "60 cm x 40 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Luna_2",
+    "full_photo": "Luna_2_full",
+    "folder": "shop",
+    "price": 250,
+    "size": "40 cm x 60 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "2/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Luna_5",
+    "full_photo": "Luna_5_full",
+    "folder": "shop",
+    "price": 250,
+    "size": "40 cm x 60 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Evasion_4",
+    "full_photo": "Evasion_4_full",
+    "folder": "shop",
+    "price": 500,
+    "size": "60 cm x 90 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Eclipse_1",
+    "full_photo": "Eclipse_1_full",
+    "folder": "shop",
+    "price": 250,
+    "size": "40 cm x 60 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Eclipse_2",
+    "full_photo": "Eclipse_2_full",
+    "folder": "shop",
+    "price": 250,
+    "size": "40 cm x 60 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Eclipse_3",
+    "full_photo": "Eclipse_3_full",
+    "folder": "shop",
+    "price": 250,
+    "size": "40 cm x 60 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  }
+]
