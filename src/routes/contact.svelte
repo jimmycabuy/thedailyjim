@@ -95,6 +95,7 @@
     padding: 0.5rem;
     width: 15rem;
     margin-top: 1rem;
+    color: #000;
   }
   button:hover {
     color: #fff;
