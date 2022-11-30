@@ -38,11 +38,7 @@
     </div>
   </a>
   <!-- <hr /> -->
-  <a
-    href="https://t.me/jimmycabuy"
-    target="_blank"
-    rel="noreferrer"
-  >
+  <a href="https://t.me/jimmycabuy" target="_blank" rel="noreferrer">
     <div class="scroll text4">
       <p class="menu_item">
         TELEGRAM <span>TELEGRAM </span>TELEGRAM
@@ -57,11 +53,7 @@
     </div>
   </a>
   <!-- <hr /> -->
-  <a
-    href="https://wa.me/32474917815"
-    target="_blank"
-    rel="noreferrer"
-  >
+  <a href="https://wa.me/32474917815" target="_blank" rel="noreferrer">
     <div class="scroll text3">
       <p class="menu_item">
         WHATSAPP <span>WHATSAPP </span>WHATSAPP
@@ -90,6 +82,22 @@
         <span>TIKTOK </span>TIKTOK<span>TIKTOK </span>TIKTOK
         <span>TIKTOK </span>TIKTOK<span>TIKTOK </span>TIKTOK
         <span>TIKTOK </span>TIKTOK
+      </p>
+    </div>
+  </a>
+  <a
+    href="mailto:jimmycabuy@hotmail.com?subject=Hi Jimmy, I need your talents 📸🚀"
+  >
+    <div class="scroll text2">
+      <p class="menu_item">
+        MAIL <span>MAIL </span>MAIL
+        <span>MAIL </span>MAIL <span>MAIL </span>MAIL
+        <span>MAIL </span>MAIL <span>MAIL </span>MAIL
+        <span>MAIL </span>MAIL
+        <span>MAIL </span>MAIL<span>MAIL </span>MAIL
+        <span>MAIL </span>MAIL<span>MAIL </span>MAIL
+        <span>MAIL </span>MAIL<span>MAIL </span>MAIL
+        <span>MAIL </span>MAIL
       </p>
     </div>
   </a>
@@ -134,7 +142,6 @@
     animation: animate 35s linear infinite;
   }
 
-
   .text1:hover,
   .text2:hover,
   .text3:hover,
@@ -156,7 +163,7 @@
     color: transparent;
   }
 
-  .menu_item{
+  .menu_item {
     color: #fff;
   }
 
