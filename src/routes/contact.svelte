@@ -75,6 +75,7 @@
     height: 3rem;
     border-bottom: 2px solid #888;
     width: 100%;
+    border-radius: 0%;
   }
   textarea {
     border: none;
