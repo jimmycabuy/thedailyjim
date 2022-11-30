@@ -29,11 +29,7 @@
       <input type="text" name="lastname" placeholder="Last Name" required />
       <input type="email" name="email" placeholder="Email" required />
       <input type="number" name="phone" placeholder="Phone Number" />
-      <textarea
-        name="message"
-        placeholder="Write your message"
-        required
-      />
+      <textarea name="message" placeholder="Write your message" required />
       <input type="hidden" name="_gotcha" style="display:none !important" />
       <button type="submit">Send</button>
     </form>
@@ -100,6 +96,7 @@
   button:hover {
     color: #fff;
     background-color: #000;
+    cursor: pointer;
   }
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
