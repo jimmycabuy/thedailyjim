@@ -82,6 +82,7 @@
     margin-top: 1rem;
     height: 10rem;
     width: 100%;
+    border-radius: 0%;
   }
   input:focus,
   textarea:focus {
