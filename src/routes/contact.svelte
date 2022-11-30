@@ -31,11 +31,9 @@
       <input type="number" name="phone" placeholder="Phone Number" />
       <textarea
         name="message"
-
         placeholder="Write your message"
         required
       />
-
       <input type="hidden" name="_gotcha" style="display:none !important" />
       <button type="submit">Send</button>
     </form>
