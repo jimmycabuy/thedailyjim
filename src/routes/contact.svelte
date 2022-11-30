@@ -56,7 +56,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     gap: 2rem;
   }
 
