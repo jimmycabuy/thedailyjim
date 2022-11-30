@@ -42,8 +42,8 @@
     <Spinner />
   {:else}
     <p>
-      Thank you for your message, we will reply as soon as possible. <br /> Have
-      a good day
+      I have received your message. Thank you very much. <br /> I will get back
+      to you as soon as possible. <br /><br /> Have a beautiful day!
     </p>
     <a href="/" class="backhome">Go gack home</a>
   {/if}
