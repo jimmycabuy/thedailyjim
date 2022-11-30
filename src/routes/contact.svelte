@@ -55,8 +55,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
-    height: 83vh;
     gap: 2rem;
   }
 
@@ -79,6 +77,7 @@
     border-radius: 0%;
   }
   textarea {
+    resize: none;
     border: none;
     border-bottom: 2px solid #888;
     margin-top: 1rem;
