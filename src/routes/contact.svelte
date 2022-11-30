@@ -56,7 +56,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    height: 90vh;
+    height: 83vh;
     gap: 2rem;
   }
 
@@ -98,6 +98,7 @@
     padding: 0.5rem;
     width: 15rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     color: #000;
   }
   button:hover {
