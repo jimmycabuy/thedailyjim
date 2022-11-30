@@ -75,6 +75,7 @@
     border-bottom: 2px solid #888;
     width: 100%;
     border-radius: 0%;
+    font-size: 0.8rem;
   }
   textarea {
     resize: none;
@@ -84,6 +85,8 @@
     height: 10rem;
     width: 100%;
     border-radius: 0%;
+    font-size: 0.8rem;
+
   }
   input:focus,
   textarea:focus {
