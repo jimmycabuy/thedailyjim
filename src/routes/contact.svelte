@@ -1,6 +1,8 @@
 <script>
   import { onMount } from "svelte";
+  import Spinner from "../components/Spinner.svelte";
   let messageSent = false;
+  let isLoading = true;
 
   onMount(() => {
     const formElement = document.querySelector("#form_container");
@@ -11,6 +13,9 @@
         method: "POST",
         body: data,
       });
+      setTimeout(() => {
+        isLoading = false;
+      }, 1000);
       messageSent = true;
     });
   });
@@ -33,6 +38,8 @@
       <input type="hidden" name="_gotcha" style="display:none !important" />
       <button type="submit">Send</button>
     </form>
+  {:else if isLoading}
+    <Spinner />
   {:else}
     <p>
       Thank you for your message, we will reply as soon as possible. <br /> Have
