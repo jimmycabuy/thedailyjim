@@ -952,9 +952,7 @@
   </div>
 
   <div class="a">
-    <a
-      href="mailto:jimmycabuy@hotmail.com?subject=Hi Jimmy, I need your talents 📸🚀"
-    >
+    <a href="/contact" on:click={() => dispatch("menudisplay")}>
       <div class="scroll text6">
         <p class="menu_item">
           CONTACT <span> CONTACT</span>
