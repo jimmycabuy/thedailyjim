@@ -30,13 +30,30 @@
       method="POST"
       id="form_container"
     >
-      <input type="text" name="firstname" placeholder="First Name" required />
-      <input type="text" name="lastname" placeholder="Last Name" required />
-      <input type="email" name="email" placeholder="Email" required />
-      <input type="number" name="phone" placeholder="Phone Number" />
-      <textarea name="message" placeholder="Write your message" required />
+      <div class="one_element_form">
+        <label for="firstname">First Name*</label>
+        <input type="text" name="firstname" id="firstname" required />
+      </div>
+      <div class="one_element_form">
+        <label for="lastname">Last Name*</label>
+        <input type="text" name="lastname" id="lastname" required />
+      </div>
+      <div class="one_element_form">
+        <label for="email">Email*</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div class="one_element_form">
+        <label for="phone">Phone Number</label>
+        <input type="number" name="phone" id="phone" />
+      </div>
+      <div class="one_element_form">
+        <label for="message">Your Message*</label>
+        <textarea name="message" id="message" required />
+      </div>
       <input type="hidden" name="_gotcha" style="display:none !important" />
-      <button type="submit">Send</button>
+      <div class="button_container">
+        <button type="submit">Send</button>
+      </div>
     </form>
   </div>
 {:else if isLoading}
@@ -72,9 +89,13 @@
   #form_container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 1rem;
     width: 60vw;
+  }
+  .one_element_form {
+    display: flex;
+    flex-direction: column;
   }
   * {
     font-family: bd-supper, sans-serif;
@@ -82,31 +103,39 @@
     font-style: normal;
   }
 
+  label {
+    font-size: 0.9rem;
+  }
+
   input {
     border: none;
-    height: 3rem;
-    border-bottom: 2px solid #888;
-    width: 100%;
+    height: 2.5rem;
+    border: 2px solid #000;
     border-radius: 0%;
     font-size: 0.9rem;
+    padding-left: 0.5rem;
   }
   textarea {
     resize: none;
     border: none;
-    border-bottom: 2px solid #888;
-    margin-top: 1rem;
-    height: 10rem;
-    width: 100%;
+    border: 2px solid #000;
+    height: 8rem;
     border-radius: 0%;
     font-size: 0.9rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
   }
   input:focus,
   textarea:focus {
     outline: none;
   }
+  .button_container {
+    display: flex;
+    justify-content: center;
+  }
   button {
     background: #fff;
-    border: 1px solid #000;
+    border: 2px solid #000;
     font-family: bd-supper, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -136,7 +165,7 @@
   }
 
   .backhome {
-    border: 1px solid #000;
+    border: 2px solid #000;
     width: 10rem;
     font-family: bd-supper, sans-serif;
     font-weight: 700;
@@ -156,7 +185,7 @@
 
   @media (max-width: 767px) {
     #form_container {
-      width: 80vw;
+      width: 95vw;
     }
     .container_full_height {
       height: 70vh;

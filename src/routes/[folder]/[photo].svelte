@@ -214,7 +214,7 @@
     cursor: pointer;
   }
   .addtocart {
-    border: 1px solid #000;
+    border: 2px solid #000;
     font-family: bd-supper,sans-serif;
     font-weight: 400;
     font-style: normal;
