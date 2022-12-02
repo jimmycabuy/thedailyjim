@@ -181,8 +181,7 @@
     flex-direction: column;
   }
   .block_text {
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding: 1rem;
     max-width: 80vh;
     display: flex;
     justify-content: center;
