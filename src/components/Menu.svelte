@@ -1041,7 +1041,6 @@
   section .scroll {
     width: 100%;
     max-height: 100%;
-    display: flex;
   }
   div {
     font-size: 3.1rem;
