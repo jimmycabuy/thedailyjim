@@ -182,7 +182,6 @@
   }
   .block_text {
     padding: 1rem;
-    max-width: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
