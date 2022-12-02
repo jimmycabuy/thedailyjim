@@ -153,7 +153,6 @@
   .arrow_back {
     height: 20px;
     width: 20px;
-    padding-top: 2px;
   }
   .block_carousel {
     padding-left: 2rem;
