@@ -60,7 +60,9 @@
   }
 
   p {
-    font-family: "GT America Regular", sans-serif;
+    font-family: bd-supper,sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   a {

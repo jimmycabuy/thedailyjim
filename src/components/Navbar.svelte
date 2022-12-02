@@ -6,7 +6,11 @@
 
 <nav class="navbar">
   <a href="/">
-    <h1 on:click={() => dispatch("menudisplay")} role="presentation" class="navbar_item">
+    <h1
+      on:click={() => dispatch("menudisplay")}
+      role="presentation"
+      class="navbar_item"
+    >
       THEDAILYJIM
     </h1>
   </a>
@@ -18,13 +22,15 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    font-family: "GT America Black", sans-serif;
     position: sticky;
     z-index: 4;
     top: 0;
     background-color: #fff;
     height: 5vh;
     align-items: center;
+    font-family: bd-supper, sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
 
   /* h1 {

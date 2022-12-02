@@ -22,7 +22,9 @@
 <style>
   h1, p {
     margin: 0 auto;
-    font-family: "GT America Black", sans-serif;
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
 
   h1 {

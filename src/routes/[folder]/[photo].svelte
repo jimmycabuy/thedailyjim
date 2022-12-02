@@ -143,7 +143,9 @@
 
 <style>
   .go_back {
-    font-family: "GT America Regular", sans-serif;
+    font-family: bd-supper,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -188,7 +190,9 @@
     flex-direction: column;
   }
   p {
-    font-family: "GT America Regular", sans-serif;
+    font-family: bd-supper,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1rem;
     text-align: center;
   }
@@ -211,7 +215,9 @@
   }
   .addtocart {
     border: 1px solid #000;
-    font-family: "GT America Regular", sans-serif;
+    font-family: bd-supper,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     padding: 0.5rem;
     width: 15rem;

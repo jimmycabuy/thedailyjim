@@ -1048,7 +1048,9 @@
     background: #fff;
     text-transform: uppercase;
     white-space: nowrap;
-    font-family: "GT America Black", sans-serif;
+    font-family: bd-supper,sans-serif;
+  font-weight: 700;
+  font-style: normal;
   }
 
   .menu_item {
@@ -1152,6 +1154,7 @@
     vertical-align: 2rem;
     font-size: 0.5rem;
     font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 100;
   }
 
   @keyframes animate {

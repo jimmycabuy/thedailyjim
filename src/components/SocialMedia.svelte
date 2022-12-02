@@ -119,7 +119,9 @@
     background: #000;
     text-transform: uppercase;
     white-space: nowrap;
-    font-family: "GT America Black", sans-serif;
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
 
   .text1 {

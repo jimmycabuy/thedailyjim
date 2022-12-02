@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "GT America Black";
   src: url("./fonts/GT-America-Expanded-Black.ttf");
 }
@@ -19,9 +19,9 @@
 }
 
 @font-face {
-	font-family: "GT America Regular Italic";
-	src: url("./fonts/GT-America-Expanded-Regular-Italic.otf");
-  }
+  font-family: "GT America Regular Italic";
+  src: url("./fonts/GT-America-Expanded-Regular-Italic.otf");
+} */
 
 * {
   margin: 0;
@@ -31,4 +31,13 @@
 a {
   text-decoration: none;
   color: #000;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

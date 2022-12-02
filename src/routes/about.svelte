@@ -54,19 +54,23 @@
     z-index: 0;
     position: relative;
   }
-  .pp_div{
+  .pp_div {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 190rem;
   }
   h3 {
-    font-family: "GT America Bold", sans-serif;
+    font-family: bd-supper, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     margin-bottom: 0.5rem;
   }
   .jim_description {
     margin-top: 0.5rem;
-    font-family: "GT America Regular", sans-serif;
+    font-family: bd-supper, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: justify;
   }
   .profilepicture {
@@ -74,7 +78,10 @@
   }
 
   span {
-    font-family: "GT America Regular Italic", sans-serif;
+    font-family: bd-supper, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 85%;
   }
 
   /* smartphone  */
