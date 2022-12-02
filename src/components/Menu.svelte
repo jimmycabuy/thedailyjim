@@ -1049,8 +1049,8 @@
     text-transform: uppercase;
     white-space: nowrap;
     font-family: bd-supper,sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-weight: 700;
+    font-style: normal;
   }
 
   .menu_item {
@@ -1130,7 +1130,7 @@
 
   .a {
     display: flex;
-    height: 9.1vh;
+    height: 9.2vh;
     background-color: #fff;
     flex-direction: column;
     justify-content: center;
@@ -1139,7 +1139,7 @@
 
   .a_about {
     display: flex;
-    height: 9.1vh;
+    height: 9.2vh;
     background-color: #000;
     flex-direction: column;
     justify-content: center;
