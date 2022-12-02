@@ -160,5 +160,8 @@
     #form_container {
       width: 80vw;
     }
+    .container_full_height {
+      height: 70vh;
+    }
   }
 </style>
