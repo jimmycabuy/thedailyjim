@@ -58,4 +58,9 @@
       opacity: 0;
     }
   }
+  @media (max-width: 767px) {
+    .loading {
+      height: 70vh;
+    }
+  }
 </style>

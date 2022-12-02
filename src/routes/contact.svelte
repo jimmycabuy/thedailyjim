@@ -40,9 +40,7 @@
     </form>
   </div>
 {:else if isLoading}
-  <div class="container_full_height">
-    <Spinner />
-  </div>
+  <Spinner />
 {:else}
   <div class="container_full_height">
     <p>
