@@ -69,7 +69,7 @@
       alt="previous"
       class="arrow_back"
     />
-    Back
+    BACK
   </a>
 </div>
 
