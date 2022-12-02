@@ -1183,7 +1183,7 @@
     }
     .a,
     .a_about {
-      height: 6.6vh;
+      height: 6.7vh;
     }
     sup {
       vertical-align: 0.6rem;
