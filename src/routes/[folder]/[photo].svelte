@@ -134,7 +134,7 @@
         class="addtocart"
         target="_blank"
         rel="noreferrer"
-        href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - ${pictureSize} - ${picturePrice} 📸🚀`}
+        href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - ${pictureSize} - ${picturePrice}€ 📸🚀`}
         >Email</a
       >
     {/if}
