@@ -21,6 +21,10 @@
   });
 </script>
 
+<svelte:head>
+  <title>thedailyjim | contact</title>
+</svelte:head>
+
 {#if !messageSent}
   <div class="container_contact">
     <h2>Fill the form. It's easy</h2>
