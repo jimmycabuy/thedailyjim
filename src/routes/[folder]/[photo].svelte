@@ -69,7 +69,11 @@
       alt="previous"
       class="arrow_back"
     />
-    {pictureFolder.charAt(0).toUpperCase() + pictureFolder.slice(1)}
+    {#if pictureFolder === "costarica"}
+      Costa Rica
+      {:else}
+      {pictureFolder.charAt(0).toUpperCase() + pictureFolder.slice(1)}
+    {/if}
   </a>
 </div>
 
