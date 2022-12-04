@@ -1173,7 +1173,7 @@
     }
     .a,
     .a_about {
-      height: 8.1vh;
+      height: 8.3vh;
     }
   }
   /* smartphone landscape  */
