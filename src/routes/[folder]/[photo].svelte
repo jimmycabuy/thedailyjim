@@ -155,6 +155,7 @@
     margin-left: -5px;
     width: fit-content;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     padding-left: 1rem;
   }
   .arrow_back {
