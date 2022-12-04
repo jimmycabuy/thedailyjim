@@ -2,7 +2,7 @@
   "name": "thedailyjim",
   "description": "Jimmy Cabuys alias thedailyjim | belgian photographer",
   "version": "0.0.1",
-  "icon": "./static/favicon.png",
+  "icon": "./static/favicon.ico",
   "engines": {
     "node": "16.14.2"
   },
