@@ -69,7 +69,7 @@
       alt="previous"
       class="arrow_back"
     />
-    Back
+    {pictureFolder.charAt(0).toUpperCase() + pictureFolder.slice(1)}
   </a>
 </div>
 
