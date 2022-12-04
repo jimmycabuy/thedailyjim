@@ -153,6 +153,7 @@
     padding: 1rem;
     display: flex;
     align-items: center;
+    margin-left: -5px;
   }
   .arrow_back {
     height: 20px;
