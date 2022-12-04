@@ -154,6 +154,7 @@
     display: flex;
     align-items: center;
     margin-left: -5px;
+    width: fit-content;
   }
   .arrow_back {
     height: 20px;
