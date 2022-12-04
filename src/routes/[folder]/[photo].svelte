@@ -72,7 +72,7 @@
     <!-- {#if pictureFolder === "costarica"}
       Costa Rica
       {:else} -->
-      {pictureFolder.charAt(0).toUpperCase()}
+      {pictureFolder.toUpperCase()}
     <!-- {/if} -->
   </a>
 </div>
