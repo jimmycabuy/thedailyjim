@@ -150,11 +150,12 @@
     font-family: bd-supper,sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding: 1rem;
     display: flex;
     align-items: center;
     margin-left: -5px;
     width: fit-content;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
   }
   .arrow_back {
     height: 20px;
