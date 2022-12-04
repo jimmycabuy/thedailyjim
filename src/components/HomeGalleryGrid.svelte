@@ -50,7 +50,7 @@
     {#each loadedPhotos as photo, i}
       <section>
         <div class="images">
-          <a href="/{photo.folder}/{photo.name}">
+          <!-- <a href="/{photo.folder}/{photo.name}"> -->
             <img
               src={`../../img/${photo.folder}/${photo.name}.webp`}
               alt={photo.name}
@@ -58,7 +58,7 @@
               height="100%"
               loading="lazy"
             />
-          </a>
+          <!-- </a> -->
         </div>
       </section>
     {/each}
