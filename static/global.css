@@ -1,31 +1,8 @@
-/* @font-face {
-  font-family: "GT America Black";
-  src: url("./fonts/GT-America-Expanded-Black.ttf");
-}
-
-@font-face {
-  font-family: "GT America Bold";
-  src: url("./fonts/GT-America-Expanded-Bold.otf");
-}
-
-@font-face {
-  font-family: "GT America Medium";
-  src: url("./fonts/GT-America-Expanded-Medium.otf");
-}
-
-@font-face {
-  font-family: "GT America Regular";
-  src: url("./fonts/GT-America-Expanded-Regular.otf");
-}
-
-@font-face {
-  font-family: "GT America Regular Italic";
-  src: url("./fonts/GT-America-Expanded-Regular-Italic.otf");
-} */
-
 * {
   margin: 0;
   padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 a {
@@ -35,9 +12,4 @@ a {
 
 *::-webkit-scrollbar {
   display: none;
-}
-
-* {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
