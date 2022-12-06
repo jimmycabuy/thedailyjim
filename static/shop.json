@@ -40,6 +40,16 @@
     "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
   },
   {
+    "name": "Evasion_1",
+    "full_photo": "Evasion_1_full",
+    "folder": "shop",
+    "price": 690,
+    "size": "60 cm x 90 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold with frame (Nielsen Alpha aluminum frame) and glass."
+  },
+  {
     "name": "Evasion_4",
     "full_photo": "Evasion_4_full",
     "folder": "shop",
