@@ -19,6 +19,16 @@
 
   const nextCarousel = () => {
     indexCarousel = (indexCarousel + 1) % carouselShopPhotos.length;
+    console.log(indexCarousel);
+  };
+
+  const previousCarousel = () => {
+    if (indexCarousel === 0) {
+      indexCarousel = carouselShopPhotos.length - 1;
+    } else {
+      indexCarousel = (indexCarousel - 1) % carouselShopPhotos.length;
+    }
+    console.log(indexCarousel);
   };
 
   let allPhotosArray = [];
@@ -44,6 +54,12 @@
           pictureFull = allPhotosArray[i].full_photo;
           carouselShopPhotos.push(allPhotosArray[i].name);
           carouselShopPhotos.push(allPhotosArray[i].full_photo);
+          if (allPhotosArray[i].full_photo2) {
+            carouselShopPhotos.push(allPhotosArray[i].full_photo2);
+          }
+          if (allPhotosArray[i].full_photo3) {
+            carouselShopPhotos.push(allPhotosArray[i].full_photo3);
+          }
         }
       }
     } else {
@@ -71,7 +87,7 @@
     />
     {#if pictureFolder === "costarica"}
       COSTA RICA
-      {:else}
+    {:else}
       {pictureFolder.toUpperCase()}
     {/if}
   </a>
@@ -88,7 +104,7 @@
 {:else}
   <div class="block_carousel" transition:fade>
     <div class="block_image_carousel">
-      <button on:click={nextCarousel}>
+      <button on:click={previousCarousel}>
         <img
           class="arrow"
           src="../../../img/asset/previous.png"
@@ -147,7 +163,7 @@
 
 <style>
   .go_back {
-    font-family: bd-supper,sans-serif;
+    font-family: bd-supper, sans-serif;
     font-weight: 400;
     font-style: normal;
     display: flex;
@@ -195,7 +211,7 @@
     flex-direction: column;
   }
   p {
-    font-family: bd-supper,sans-serif;
+    font-family: bd-supper, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
@@ -220,7 +236,7 @@
   }
   .addtocart {
     border: 2px solid #000;
-    font-family: bd-supper,sans-serif;
+    font-family: bd-supper, sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;

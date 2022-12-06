@@ -41,7 +41,9 @@
   },
   {
     "name": "Evasion_1",
-    "full_photo": "Evasion_1_full",
+    "full_photo": "Evasion_1_full1",
+    "full_photo2": "Evasion_1_full2",
+    "full_photo3": "Evasion_1_full3",
     "folder": "shop",
     "price": 640,
     "size": "60 cm x 90 cm",
