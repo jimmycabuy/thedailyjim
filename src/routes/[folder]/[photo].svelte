@@ -75,8 +75,8 @@
 </script>
 
 <svelte:head>
-  <!-- <title>thedailyjim | {pictureName}</title> -->
-  <title>thedailyjim | photo</title>
+  <title>thedailyjim | {pictureName}</title>
+  <!-- <title>thedailyjim | photo</title> -->
 </svelte:head>
 
 <div>
