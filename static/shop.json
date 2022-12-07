@@ -30,8 +30,8 @@
     "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
   },
   {
-    "name": "Luna_5",
-    "full_photo": "Luna_5_full",
+    "name": "Luna_6",
+    "full_photo": "Luna_6_full",
     "folder": "shop",
     "price": 240,
     "size": "40 cm x 60 cm",
@@ -84,6 +84,26 @@
   {
     "name": "Eclipse_3",
     "full_photo": "Eclipse_3_full",
+    "folder": "shop",
+    "price": 240,
+    "size": "40 cm x 60 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Luna_5",
+    "full_photo": "Luna_5_full",
+    "folder": "shop",
+    "price": 240,
+    "size": "40 cm x 60 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "3/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold without frame (unless requested)."
+  },
+  {
+    "name": "Palm_6",
+    "full_photo": "Palm_6_full",
     "folder": "shop",
     "price": 240,
     "size": "40 cm x 60 cm",
