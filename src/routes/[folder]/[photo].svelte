@@ -78,20 +78,33 @@
   <title>thedailyjim | {pictureName}</title>
 </svelte:head>
 
-<div>
-  <a href="/{pictureFolder}" class="go_back">
-    <img
-      src="../../../img/asset/previous.png"
-      alt="previous"
-      class="arrow_back"
-    />
-    {#if pictureFolder === "costarica"}
-      COSTA RICA
-    {:else}
+{#if pictureFolder === "home"}
+  <div>
+    <a href="/" class="go_back">
+      <img
+        src="../../../img/asset/previous.png"
+        alt="previous"
+        class="arrow_back"
+      />
       {pictureFolder.toUpperCase()}
-    {/if}
-  </a>
-</div>
+    </a>
+  </div>
+{:else}
+  <div>
+    <a href="/{pictureFolder}" class="go_back">
+      <img
+        src="../../../img/asset/previous.png"
+        alt="previous"
+        class="arrow_back"
+      />
+      {#if pictureFolder === "costarica"}
+        COSTA RICA
+      {:else}
+        {pictureFolder.toUpperCase()}
+      {/if}
+    </a>
+  </div>
+{/if}
 
 {#if !pictureFull}
   <div class="block_image" transition:fade>

@@ -6,30 +6,32 @@
   let loadedPhotos = [];
   let unsubscribe;
   let isLoading = true;
-  let photosHome = [];
-  let firstPictures = [];
+  let allPhotosFromJson = [];
+  let galleryForHome = [];
 
   onMount(async () => {
     const res = await fetch("homegallerypic.json");
-    photosHome = await res.json();
-    photosHome.sort((a, b) => {
-        const nameA = a.folder.toUpperCase();
-        const nameB = b.folder.toUpperCase();
-        if (nameA > nameB) {
-          return -1;
-        }
-        if (nameA < nameB) {
-          return 1;
-        }
-        return 0;
-      });
-    for (let i = 0; i < 75; i++) {
-      firstPictures = [...firstPictures, photosHome[i]];
+    allPhotosFromJson = await res.json();
+    for (let i = 0; i < allPhotosFromJson.length; i++) {
+      if (allPhotosFromJson[i].folder === "home") {
+        galleryForHome = [...galleryForHome, allPhotosFromJson[i]];
+      }
     }
+    galleryForHome.sort((a, b) => {
+      const nameA = a.name.toUpperCase();
+      const nameB = b.name.toUpperCase();
+      if (nameA > nameB) {
+        return -1;
+      }
+      if (nameA < nameB) {
+        return 1;
+      }
+      return 0;
+    });
     unsubscribe = galleryStore.subscribe((items) => {
       loadedPhotos = items;
     });
-    galleryStore.setHomeGalleryPics(firstPictures);
+    galleryStore.setHomeGalleryPics(galleryForHome);
   });
 
   onDestroy(() => {
@@ -50,7 +52,7 @@
     {#each loadedPhotos as photo, i}
       <section>
         <div class="images">
-          <!-- <a href="/{photo.folder}/{photo.name}"> -->
+          <a href="/{photo.folder}/{photo.name}">
             <img
               src={`../../img/${photo.folder}/${photo.name}.webp`}
               alt={photo.name}
@@ -58,7 +60,7 @@
               height="100%"
               loading="lazy"
             />
-          <!-- </a> -->
+          </a>
         </div>
       </section>
     {/each}
@@ -75,10 +77,10 @@
     margin-right: -10px;
     transition: 0.3s ease;
   }
-  /* section:hover {
+  section:hover {
     cursor: pointer;
     filter: brightness(50%);
-  } */
+  }
   /* smartphone  */
   @media (max-width: 767px) {
     article {
