@@ -268,7 +268,7 @@
       padding-right: 0rem;
     }
     .block_text {
-      width: 100%;
+      width: fit-content;
     }
   }
   @media (min-width: 767px) and (max-width: 1023px) {
