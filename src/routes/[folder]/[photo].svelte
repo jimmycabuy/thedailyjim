@@ -209,6 +209,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 60%;
   }
   p {
     font-family: bd-supper, sans-serif;
@@ -265,6 +266,9 @@
       justify-content: center;
       padding-left: 0rem;
       padding-right: 0rem;
+    }
+    .block_text {
+      width: 100%;
     }
   }
   @media (min-width: 767px) and (max-width: 1023px) {
