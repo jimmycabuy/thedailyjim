@@ -801,10 +801,12 @@
     </a>
   </div>
 
-  <div class="a_about">
+  <div class="a">
+  <!-- <div class="a_about"> -->
     <a href="/about" on:click={() => dispatch("menudisplay")}>
       <div class="scroll text5">
-        <p class="menu_item_about">
+        <p class="menu_item">
+        <!-- <p class="menu_item_about"> -->
           ABOUT ME <span> ABOUT ME</span>
           ABOUT ME <span> ABOUT ME</span>
           ABOUT ME <span> ABOUT ME</span>
@@ -1057,9 +1059,9 @@
     background-color: #fff;
   }
 
-  .menu_item_about {
+  /* .menu_item_about {
     background-color: #000;
-  }
+  } */
   .text1 {
     animation: animate 55s linear infinite;
   }
@@ -1077,7 +1079,7 @@
   }
   .text5 {
     animation: animate 20s linear infinite;
-    color: #fff;
+    /* color: #fff; */
   }
   .text6 {
     animation: animate 45s linear infinite;
@@ -1112,9 +1114,9 @@
     color: transparent;
   }
 
-  .menu_item_about span {
+  /* .menu_item_about span {
     -webkit-text-stroke: 2px #fff;
-  }
+  } */
 
   .a:hover div {
     background-color: #000;
@@ -1137,14 +1139,14 @@
     border-top: 1.2px solid #000;
   }
 
-  .a_about {
+  /* .a_about {
     display: flex;
     height: 9.2vh;
     background-color: #000;
     flex-direction: column;
     justify-content: center;
     border-top: 1.2px solid #000;
-  }
+  } */
 
   .a:hover {
     background-color: #000;
@@ -1171,20 +1173,26 @@
     div {
       font-size: 3.1rem;
     }
-    .a,
-    .a_about {
+    .a {
       height: 8.6vh;
     }
+    /* .a,
+    .a_about {
+      height: 8.6vh;
+    } */
   }
   /* smartphone landscape  */
   @media (max-width: 850px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
     div {
       font-size: 1.5rem;
     }
-    .a,
-    .a_about {
+    .a {
       height: 6.7vh;
     }
+    /* .a,
+    .a_about {
+      height: 6.7vh;
+    } */
     sup {
       vertical-align: 0.6rem;
       font-size: 0.3rem;
