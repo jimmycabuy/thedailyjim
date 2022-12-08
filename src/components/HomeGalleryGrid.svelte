@@ -13,7 +13,7 @@
     const res = await fetch("homegallerypic.json");
     allPhotosFromJson = await res.json();
     for (let i = 0; i < allPhotosFromJson.length; i++) {
-      if (allPhotosFromJson[i].folder === "home") {
+      if (allPhotosFromJson[i].folder === "h") {
         galleryForHome = [...galleryForHome, allPhotosFromJson[i]];
       }
     }

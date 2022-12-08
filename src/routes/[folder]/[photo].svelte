@@ -78,7 +78,7 @@
   <title>thedailyjim | {pictureName}</title>
 </svelte:head>
 
-{#if pictureFolder === "home"}
+{#if pictureFolder === "h"}
   <div>
     <a href="/" class="go_back">
       <img
@@ -86,7 +86,7 @@
         alt="previous"
         class="arrow_back"
       />
-      {pictureFolder.toUpperCase()}
+      HOME
     </a>
   </div>
 {:else}
