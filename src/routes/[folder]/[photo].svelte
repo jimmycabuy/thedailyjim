@@ -145,7 +145,7 @@
     {#if picturePlace}
       <p>{picturePlace}</p>
     {:else}
-      <p>{pictureName} €</p>
+      <p style="font-size: 110%;">{pictureName}</p>
       <br />
       <p>{picturePrice} €</p>
       <br />
