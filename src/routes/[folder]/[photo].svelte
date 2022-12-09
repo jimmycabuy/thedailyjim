@@ -145,6 +145,8 @@
     {#if picturePlace}
       <p>{picturePlace}</p>
     {:else}
+      <p>{pictureName} €</p>
+      <br />
       <p>{picturePrice} €</p>
       <br />
       <p>{pictureDesc}</p>
