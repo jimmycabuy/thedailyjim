@@ -1458,5 +1458,45 @@
     "name": "road66",
     "folder": "h",
     "place": "Route 66, Arizona"
+  },
+  {
+    "name": "body-full-vincent",
+    "folder": "work",
+    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
+  },
+  {
+    "name": "launois-vincent",
+    "folder": "work",
+    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
+  },
+  {
+    "name": "nb-vincent",
+    "folder": "work",
+    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
+  },
+  {
+    "name": "ski-vincent",
+    "folder": "work",
+    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
+  },
+  {
+    "name": "vincent",
+    "folder": "work",
+    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
+  },
+  {
+    "name": "detail-easy-shop",
+    "folder": "work",
+    "place": "Shooting for Easy Shop Brussels"
+  },
+  {
+    "name": "easy-done-table",
+    "folder": "work",
+    "place": "Shooting for Easy Shop Brussels"
+  },
+  {
+    "name": "shoot-table-easy-shoot",
+    "folder": "work",
+    "place": "Shooting for Easy Shop Brussels"
   }
 ]
