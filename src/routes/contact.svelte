@@ -51,7 +51,7 @@
         <input type="number" name="phone" id="phone" />
       </div>
       <div class="one_element_form">
-        <label for="message">Your Message*</label>
+        <label for="message">Message*</label>
         <textarea name="message" id="message" required />
       </div>
       <input type="hidden" name="_gotcha" style="display:none !important" />
