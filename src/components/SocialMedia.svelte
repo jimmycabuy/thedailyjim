@@ -7,14 +7,25 @@
   >
     <div class="scroll text1">
       <p class="menu_item">
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM
-        <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM
-        <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM
-        <span>INSTAGRAM </span>INSTAGRAM
-        <span>INSTAGRAM </span>INSTAGRAM<span>INSTAGRAM </span>INSTAGRAM
-        <span>INSTAGRAM </span>INSTAGRAM<span>INSTAGRAM </span>INSTAGRAM
-        <span>INSTAGRAM </span>INSTAGRAM<span>INSTAGRAM </span>INSTAGRAM
-        <span>INSTAGRAM </span>INSTAGRAM
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
+        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
       </p>
     </div>
   </a>
@@ -26,14 +37,25 @@
   >
     <div class="scroll text2">
       <p class="menu_item">
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK
-        <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>FACEBOOK
-        <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>FACEBOOK
-        <span>FACEBOOK </span>FACEBOOK
-        <span>FACEBOOK </span>FACEBOOK<span>FACEBOOK </span>FACEBOOK
-        <span>FACEBOOK </span>FACEBOOK<span>FACEBOOK </span>FACEBOOK
-        <span>FACEBOOK </span>FACEBOOK<span>FACEBOOK </span>FACEBOOK
-        <span>FACEBOOK </span>FACEBOOK
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
+        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
       </p>
     </div>
   </a>
@@ -41,14 +63,25 @@
   <a href="https://t.me/jimmycabuy" target="_blank" rel="noreferrer">
     <div class="scroll text4">
       <p class="menu_item">
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM
-        <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>TELEGRAM
-        <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>TELEGRAM
-        <span>TELEGRAM </span>TELEGRAM
-        <span>TELEGRAM </span>TELEGRAM<span>TELEGRAM </span>TELEGRAM
-        <span>TELEGRAM </span>TELEGRAM<span>TELEGRAM </span>TELEGRAM
-        <span>TELEGRAM </span>TELEGRAM<span>TELEGRAM </span>TELEGRAM
-        <span>TELEGRAM </span>TELEGRAM
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
+        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
       </p>
     </div>
   </a>
@@ -56,14 +89,25 @@
   <a href="https://wa.me/32474917815" target="_blank" rel="noreferrer">
     <div class="scroll text3">
       <p class="menu_item">
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP
-        <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>WHATSAPP
-        <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>WHATSAPP
-        <span>WHATSAPP </span>WHATSAPP
-        <span>WHATSAPP </span>WHATSAPP<span>WHATSAPP </span>WHATSAPP
-        <span>WHATSAPP </span>WHATSAPP<span>WHATSAPP </span>WHATSAPP
-        <span>WHATSAPP </span>WHATSAPP<span>WHATSAPP </span>WHATSAPP
-        <span>WHATSAPP </span>WHATSAPP
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
+        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
       </p>
     </div>
   </a>
@@ -74,14 +118,25 @@
   >
     <div class="scroll text5">
       <p class="menu_item">
-        TIKTOK <span>TIKTOK </span>TIKTOK
-        <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>TIKTOK
-        <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>TIKTOK
-        <span>TIKTOK </span>TIKTOK
-        <span>TIKTOK </span>TIKTOK<span>TIKTOK </span>TIKTOK
-        <span>TIKTOK </span>TIKTOK<span>TIKTOK </span>TIKTOK
-        <span>TIKTOK </span>TIKTOK<span>TIKTOK </span>TIKTOK
-        <span>TIKTOK </span>TIKTOK
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
+        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
       </p>
     </div>
   </a>
@@ -90,14 +145,25 @@
   >
     <div class="scroll text2">
       <p class="menu_item">
-        MAIL <span>MAIL </span>MAIL
-        <span>MAIL </span>MAIL <span>MAIL </span>MAIL
-        <span>MAIL </span>MAIL <span>MAIL </span>MAIL
-        <span>MAIL </span>MAIL
-        <span>MAIL </span>MAIL<span>MAIL </span>MAIL
-        <span>MAIL </span>MAIL<span>MAIL </span>MAIL
-        <span>MAIL </span>MAIL<span>MAIL </span>MAIL
-        <span>MAIL </span>MAIL
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
+        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
       </p>
     </div>
   </a>
