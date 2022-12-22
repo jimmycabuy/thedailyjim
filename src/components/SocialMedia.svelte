@@ -6,7 +6,7 @@
     rel="noreferrer"
   >
     <div class="scroll text1">
-      <p class="menu_item">
+      <p class="menu_item_socialmedia">
         INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
         INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
         INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
@@ -36,7 +36,7 @@
     rel="noreferrer"
   >
     <div class="scroll text2">
-      <p class="menu_item">
+      <p class="menu_item_socialmedia">
         FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
         FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
         FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
@@ -62,7 +62,7 @@
   <!-- <hr /> -->
   <a href="https://t.me/jimmycabuy" target="_blank" rel="noreferrer">
     <div class="scroll text4">
-      <p class="menu_item">
+      <p class="menu_item_socialmedia">
         TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
         TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
         TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
@@ -88,7 +88,7 @@
   <!-- <hr /> -->
   <a href="https://wa.me/32474917815" target="_blank" rel="noreferrer">
     <div class="scroll text3">
-      <p class="menu_item">
+      <p class="menu_item_socialmedia">
         WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
         WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
         WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
@@ -117,7 +117,7 @@
     rel="noreferrer"
   >
     <div class="scroll text5">
-      <p class="menu_item">
+      <p class="menu_item_socialmedia">
         TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
         TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
         TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
@@ -144,7 +144,7 @@
     href="mailto:jimmycabuy@hotmail.com?subject=Hi Jimmy, I need your talents 📸🚀"
   >
     <div class="scroll text2">
-      <p class="menu_item">
+      <p class="menu_item_socialmedia">
         MAIL <span>MAIL </span>MAIL <span>MAIL </span>
         MAIL <span>MAIL </span>MAIL <span>MAIL </span>
         MAIL <span>MAIL </span>MAIL <span>MAIL </span>
@@ -231,7 +231,7 @@
     color: transparent;
   }
 
-  .menu_item {
+  .menu_item_socialmedia {
     color: #fff;
   }
 
