@@ -22,6 +22,12 @@
     .lds-ripple div {
       border: 4px solid #fff !important;
     }
+    .navbar {
+      background-color: #000 !important;
+    }
+    h1 {
+      color: white;
+    }
   </style>
 </svelte:head>
 
