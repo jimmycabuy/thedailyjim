@@ -10,6 +10,17 @@
   onMount(async () => {
     const apiResponse = await fetch("shop.json");
     allPhotosJSON = await apiResponse.json();
+    allPhotosJSON.sort((a, b) => {
+      const nameA = a.price;
+      const nameB = b.price;
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+      return 0;
+    });
     return () => console.log("Destroyed");
   });
 
@@ -60,7 +71,7 @@
   }
 
   p {
-    font-family: bd-supper,sans-serif;
+    font-family: bd-supper, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
