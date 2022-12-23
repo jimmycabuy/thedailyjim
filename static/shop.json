@@ -108,5 +108,25 @@
     "paper": "Hahnemühle Fine Art matte agave paper",
     "printNo": "1/5",
     "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold with the Nielsen Alpha silver aluminum frame and glass. Possibility to buy without the frame (60 euros less)."
+  },
+  {
+    "name": "Stone_1",
+    "full_photo": "Stone_1_full",
+    "folder": "shop",
+    "price": 210,
+    "size": "45 cm x 30 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold with the Nielsen Alpha silver aluminum frame and glass. Possibility to buy without the frame (40 euros less)."
+  },
+  {
+    "name": "Stone_2",
+    "full_photo": "Stone_2_full",
+    "folder": "shop",
+    "price": 210,
+    "size": "45 cm x 30 cm",
+    "paper": "Hahnemühle Fine Art matte agave paper",
+    "printNo": "1/5",
+    "description": "Exclusive print limited to 5 copies : dated, numbered and signed. Sold with the Nielsen Alpha silver aluminum frame and glass. Possibility to buy without the frame (40 euros less)."
   }
 ]
