@@ -109,7 +109,7 @@
     font-style: normal;
     text-align: center;
     padding: 0.5rem;
-    width: 15rem;
+    width: 10rem;
   }
   .addtocart:hover {
     color: #fff;
