@@ -36,20 +36,6 @@
 {#if isLoading}
   <Spinner />
 {:else}
-  <div class="box_demand">
-    <p class="paragraph_demand">
-      All the pictures on my website can be printed and framed on demand. <br />
-      Do not hesitate to contact me for more information.
-    </p>
-    <a
-      class="addtocart"
-      target="_blank"
-      rel="noreferrer"
-      href="https://wa.link/2vi05h"
-      >WhatsApp
-    </a>
-    <!-- href="https://wa.link/lkyiri" -->
-  </div>
   <div class="auto-grid">
     {#each allPhotosJSON as photo, i}
       <a class="photo_link" href="/{photo.folder}/{photo.name}">
@@ -68,6 +54,20 @@
         </div>
       </a>
     {/each}
+  </div>
+    <div class="box_demand">
+    <p class="paragraph_demand">
+      All the pictures on my website can be printed and framed on demand. <br />
+      Do not hesitate to contact me for more information.
+    </p>
+    <a
+      class="addtocart"
+      target="_blank"
+      rel="noreferrer"
+      href="https://wa.link/2vi05h"
+      >WhatsApp
+    </a>
+    <!-- href="https://wa.link/lkyiri" -->
   </div>
 {/if}
 
