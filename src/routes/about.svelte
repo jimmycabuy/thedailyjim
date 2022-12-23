@@ -108,7 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 190rem;
+    width: 140rem;
   }
   h3 {
     font-family: bd-supper, sans-serif;
