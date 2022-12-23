@@ -41,13 +41,14 @@
       All the pictures on my website can be printed and framed on demand. <br />
       Do not hesitate to contact me for more information.
     </p>
-      <a
-        class="addtocart"
-        target="_blank"
-        rel="noreferrer"
-        href="https://wa.link/lkyiri"
-        >WhatsApp</a
-      >
+    <a
+      class="addtocart"
+      target="_blank"
+      rel="noreferrer"
+      href="https://wa.link/2vi05h"
+      >WhatsApp
+    </a>
+    <!-- href="https://wa.link/lkyiri" -->
   </div>
   <div class="auto-grid">
     {#each allPhotosJSON as photo, i}
@@ -89,7 +90,7 @@
     font-style: normal;
   }
 
-  .box_demand{
+  .box_demand {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,5 +129,4 @@
     display: flex;
     justify-content: space-between;
   }
-
 </style>
