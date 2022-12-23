@@ -36,9 +36,22 @@
 {#if isLoading}
   <Spinner />
 {:else}
+  <div class="box_demand">
+    <p class="paragraph_demand">
+      All the pictures on my website can be printed and framed on demand. <br />
+      Do not hesitate to contact me for more information.
+    </p>
+      <a
+        class="addtocart"
+        target="_blank"
+        rel="noreferrer"
+        href="https://wa.link/lkyiri"
+        >WhatsApp</a
+      >
+  </div>
   <div class="auto-grid">
     {#each allPhotosJSON as photo, i}
-      <a href="/{photo.folder}/{photo.name}">
+      <a class="photo_link" href="/{photo.folder}/{photo.name}">
         <div class="box">
           <img
             src={`../../img/${photo.folder}/${photo.name}.webp`}
@@ -76,11 +89,38 @@
     font-style: normal;
   }
 
-  a {
+  .box_demand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+    gap: 1.5rem;
+  }
+
+  .paragraph_demand {
+    text-align: center;
+  }
+
+  .addtocart {
+    border: 2px solid #000;
+    font-family: bd-supper, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 0.5rem;
+    width: 15rem;
+  }
+  .addtocart:hover {
+    color: #fff;
+    background-color: #000;
+  }
+
+  .photo_link {
     transition: 0.3s ease;
   }
 
-  a:hover {
+  .photo_link:hover {
     cursor: pointer;
     filter: brightness(50%);
   }
@@ -88,4 +128,5 @@
     display: flex;
     justify-content: space-between;
   }
+
 </style>
