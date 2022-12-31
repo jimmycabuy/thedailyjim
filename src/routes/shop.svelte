@@ -57,7 +57,7 @@
   </div>
     <div class="box_demand">
     <p class="paragraph_demand">
-      All the pictures on my website can be printed and framed on demand. <br />
+      All the pictures on my website can be printed and framed on demand... <br />
       Do not hesitate to contact me for more information.
     </p>
     <a
