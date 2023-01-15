@@ -33,13 +33,8 @@
     font-style: normal;
   }
 
-  /* h1 {
-    color: #efcac4;
-  } */
-
   h1:hover {
     cursor: pointer;
-    /* color: #ea4526; */
     color: #888;
   }
 
@@ -64,12 +59,5 @@
   }
   /* big monitor  */
   /* @media (min-width: 2000px) {
-    h1 {
-      font-size: 3.5rem;
-    }
-    .navbar {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-    }
   } */
 </style>
