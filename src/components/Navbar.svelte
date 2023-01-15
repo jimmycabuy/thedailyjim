@@ -11,7 +11,7 @@
       role="presentation"
       class="navbar_item"
     >
-      THEDAILYJIM
+      THEDAILYJIMm
     </h1>
   </a>
   <h1 class="navbar_item"><slot /></h1>
