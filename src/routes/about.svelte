@@ -83,7 +83,7 @@
         to leave everything behind and travel for 6 months throughout North
         America, capturing every moment of my journey through the lens of my
         camera.
-        <br />
+        <br /> <br />
         I am a travel, adventure, and street photographer, capturing unique moments
         and hidden stories of every place I visit. I have decided to share my work
         with the world by organizing an exhibition upon my return to Belgium, allowing
