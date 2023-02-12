@@ -75,14 +75,21 @@
     <div>
       <h3>Jimmy alias thedailyjim</h3>
       <p class="jim_description">
-        Passionate about digital and new technologies, I have always enjoyed the
-        world of photography from a very young age. It wasn't until I was 22
-        that I got serious about photography and bought my first camera. While
-        working in digital marketing, I had to do a lot of shoots for clients
-        and I loved it. After that, I decided to leave everything behind and
-        travel the world for 6 months to capture every single memory. Back in
-        Belgium, I decided to exhibit my photos for 4 days in a Brussels
-        gallery.
+        I am a passionate and talented photographer, fascinated by the world
+        around me. Since my youngest age, I have been drawn to photography and
+        it was at the age of 22 that I purchased my first camera. Traveling has
+        been a source of inspiration for me and it was during my many trips that
+        I developed a passion for photography. In 2021, I made a bold decision
+        to leave everything behind and travel for 6 months throughout North
+        America, capturing every moment of my journey through the lens of my
+        camera.
+        <br />
+        I am a travel, adventure, and street photographer, capturing unique moments
+        and hidden stories of every place I visit. I have decided to share my work
+        with the world by organizing an exhibition upon my return to Belgium, allowing
+        people to discover my journey through my images. My love for discovery and
+        adventure is reflected in my art, and my determination to capture every moment
+        allows me to produce unique and powerful works.
         <br /> <br />
         <span>
           "The best thing about a picture is that it never changes, even when
