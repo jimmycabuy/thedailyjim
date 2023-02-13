@@ -80,9 +80,8 @@
         it was at the age of 22 that I purchased my first camera. Traveling has
         been a source of inspiration for me and it was during my many trips that
         I developed a passion for photography. In 2021, I made a bold decision
-        to leave everything behind and travel for 6 months throughout North
-        America, capturing every moment of my journey through the lens of my
-        camera.
+        to leave everything behind and travel for 6 months throughout America,
+        capturing every moment of my journey through the lens of my camera.
         <br /> <br />
         I am a travel, adventure, and street photographer, capturing unique moments
         and hidden stories of every place I visit. I have decided to share my work
