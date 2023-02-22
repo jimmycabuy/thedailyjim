@@ -49,20 +49,13 @@
           />
           <div class="box_name_price">
             <p>{photo.name}</p>
-            <!-- remove this paragraph when sales are over -->
-            <p style="color: tomato;">SALES</p>
-            <!-- remove this paragraph when sales are over -->
-            <p style="color: tomato;">40% off</p>
-            <!-- remove this paragraph when sales are over -->
-            <p style="color: tomato;">{photo.price * 0.6} €</p>
-            <!-- remove the style when sales are over -->
-            <p style="text-decoration: line-through;">{photo.price} €</p>
+            <p>{photo.price} €</p>
           </div>
         </div>
       </a>
     {/each}
   </div>
-  <div class="box_demand">
+    <div class="box_demand">
     <p class="paragraph_demand">
       All the pictures on my website can be printed and framed on demand. <br />
       Do not hesitate to contact me for more information.
