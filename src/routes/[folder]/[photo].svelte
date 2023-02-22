@@ -172,14 +172,14 @@
         href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - ${pictureSize} - ${picturePrice}€ 📸🚀`}
         >Email</a
       >
-      <br />
+      <!-- <br />
       <a
         class="addtocart"
         target="_blank"
         rel="noreferrer"
         href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20dans%20le%20format%20${pictureSize}.%20Est-elle%20encore%20disponible%20%3F%20%F0%9F%98%8D%0ASi%20oui%2C%20voici%20le%20prix%20que%20je%20te%20propose%20%3A%20XXX%20%E2%82%AC%0AQu%27en%20penses-tu%20%3F%20%F0%9F%98%89%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
         >Make an offer</a
-      >
+      > -->
     {/if}
   </div>
 </div>
