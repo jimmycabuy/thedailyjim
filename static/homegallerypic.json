@@ -690,6 +690,11 @@
     "place": "Belgium"
   },
   {
+    "name": "plane",
+    "folder": "europe",
+    "place": "Belgium"
+  },
+  {
     "name": "sunshine",
     "folder": "canada",
     "place": "Jasper, Alberta"
