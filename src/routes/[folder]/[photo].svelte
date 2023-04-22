@@ -34,6 +34,7 @@
   let allPhotosArray = [];
   let picturePlace = null;
   let picturePrice = null;
+  let pictureOldPrice = null;
   let pictureSize = null;
   let picturePaper = null;
   let pictureNo = null;
@@ -47,6 +48,7 @@
       for (let i = 0; i < allPhotosArray.length; i++) {
         if (allPhotosArray[i].name === pictureName) {
           picturePrice = allPhotosArray[i].price;
+          pictureOldPrice = allPhotosArray[i].oldprice;
           pictureSize = allPhotosArray[i].size;
           picturePaper = allPhotosArray[i].paper;
           pictureNo = allPhotosArray[i].printNo;
@@ -147,7 +149,9 @@
     {:else}
       <p style="font-size: 110%;">{pictureName}</p>
       <br />
-      <p>{picturePrice} €</p>
+      <p style="text-decoration: line-through;">{pictureOldPrice} €</p>
+      <br />
+      <p style="color: tomato;">{picturePrice} €</p>
       <br />
       <p>{pictureDesc}</p>
       <br />
