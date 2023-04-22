@@ -149,9 +149,9 @@
     {:else}
       <p style="font-size: 110%;">{pictureName}</p>
       <br />
-      <p style="text-decoration: line-through;">{pictureOldPrice} €</p>
-      <br />
       <p style="color: tomato;">{picturePrice} €</p>
+      <br />
+      <p style="text-decoration: line-through;">{pictureOldPrice} €</p>
       <br />
       <p>{pictureDesc}</p>
       <br />
