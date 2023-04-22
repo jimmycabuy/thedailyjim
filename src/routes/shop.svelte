@@ -49,6 +49,7 @@
           />
           <div class="box_name_price">
             <p>{photo.name}</p>
+            <p>{photo.oldprice}</p>
             <p>{photo.price} €</p>
           </div>
         </div>
