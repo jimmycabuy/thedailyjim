@@ -49,8 +49,9 @@
           />
           <div class="box_name_price">
             <p>{photo.name}</p>
-            <p>{photo.oldprice}</p>
-            <p>{photo.price} €</p>
+            <p style="color: tomato;">SALE</p>
+            <p style="text-decoration: line-through;">{photo.oldprice} €</p>
+            <p style="color: tomato;">{photo.price} €</p>
           </div>
         </div>
       </a>
