@@ -47,6 +47,7 @@
       allPhotosArray = await res.json();
       for (let i = 0; i < allPhotosArray.length; i++) {
         if (allPhotosArray[i].name === pictureName) {
+          picturePlace = allPhotosArray[i].place;
           picturePrice = allPhotosArray[i].price;
           pictureOldPrice = allPhotosArray[i].oldprice;
           pictureSize = allPhotosArray[i].size;
@@ -152,6 +153,8 @@
       <p style="color: tomato;">{picturePrice} €</p>
       <br />
       <p style="text-decoration: line-through;">{pictureOldPrice} €</p>
+      <br />
+      <p>{picturePlace}</p>
       <br />
       <p>{pictureDesc}</p>
       <br />
