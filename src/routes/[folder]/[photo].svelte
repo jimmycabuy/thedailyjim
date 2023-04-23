@@ -145,7 +145,7 @@
 
 <div class="container_text" transition:fade>
   <div class="block_text">
-    {#if picturePlace}
+    {#if !picturePrice}
       <p>{picturePlace}</p>
     {:else}
       <p style="font-size: 110%;">{pictureName}</p>
