@@ -50,6 +50,7 @@
           <div class="box_name_price">
             <p>{photo.name}</p>
             <p style="color: tomato;">SALES</p>
+            <p style="color: tomato;">50% off</p>
             <p style="color: tomato;">{photo.price} €</p>
             <p style="text-decoration: line-through;">{photo.oldprice} €</p>
           </div>
