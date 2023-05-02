@@ -149,10 +149,11 @@
       <p>{picturePlace}</p>
     {:else}
       <p style="font-size: 110%;">{pictureName}</p>
+      <!-- <br />
+      <p style="color: tomato;">{picturePrice} €</p> -->
       <br />
-      <p style="color: tomato;">{picturePrice} €</p>
-      <br />
-      <p style="text-decoration: line-through;">{pictureOldPrice} €</p>
+      <!-- <p style="text-decoration: line-through;">{pictureOldPrice} €</p> -->
+      <p>{pictureOldPrice} €</p>
       <br />
       <p>{picturePlace}</p>
       <br />
@@ -168,7 +169,7 @@
         class="addtocart"
         target="_blank"
         rel="noreferrer"
-        href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20dans%20le%20format%20${pictureSize}%20pour%20${picturePrice}€.%20Est-elle%20encore%20disponible%20%3F%20%F0%9F%98%8D%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
+        href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20dans%20le%20format%20${pictureSize}%20pour%20${pictureOldPrice}€.%20Est-elle%20encore%20disponible%20%3F%20%F0%9F%98%8D%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
         >WhatsApp</a
       >
       <br />
@@ -176,7 +177,7 @@
         class="addtocart"
         target="_blank"
         rel="noreferrer"
-        href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - ${pictureSize} - ${picturePrice}€ 📸🚀`}
+        href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - ${pictureSize} - ${pictureOldPrice}€ 📸🚀`}
         >Email</a
       >
       <!-- <br />
