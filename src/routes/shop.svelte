@@ -59,10 +59,14 @@
       </a>
     {/each}
   </div>
-    <div class="box_demand">
+  <div class="box_demand">
     <p class="paragraph_demand">
-      All the pictures on my website can be printed and framed on demand. <br />
-      Do not hesitate to contact me for more information.
+      All the photographs featured on my website can be printed and
+      custom-framed upon request. If you're interested in owning a physical copy
+      of any image or would like more details, please don't hesitate to reach
+      out to me. I would be more than happy to provide you with further
+      information and assist you in selecting the perfect print for your
+      preferences.
     </p>
     <a
       class="addtocart"
