@@ -1,5 +1,5 @@
 # thedailyjim
 
-In my spare time, I have another passion besides coding and another name: "thedailyjim" as a photographer. I've been passionate about the world of photography since I was young, and I love to get out of my house and capture the life and the surrounding landscapes.
+During my free time, I have another name and a different passion alongside coding—meet "thedailyjim," the photographer in me. Ever since my early years, I have been captivated by the art of photography, constantly seeking opportunities to venture beyond the confines of my home and capture the essence of life and the beauty of the surrounding landscapes.
 
-Find my photography portfolio here : <a href="https://thedailyjim.be" target="_blank">thedailyjim.be</a>
+I invite you to explore my photography portfolio at <a href="https://thedailyjim.be" target="_blank">thedailyjim.be</a>, where you can witness the moments I've frozen in time and immerse yourself in the visual stories I strive to tell through my lens.
