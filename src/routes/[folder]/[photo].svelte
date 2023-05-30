@@ -122,7 +122,7 @@
 {:else}
   <div class="block_carousel" transition:fade>
     <div class="block_image_carousel">
-      <button on:click={previousCarousel}>
+      <button on:click={previousCarousel} class="btn_carrou">
         <img
           class="arrow"
           src="../../../img/asset/previous.png"
@@ -138,7 +138,7 @@
           />
         </div>
       {/each}
-      <button on:click={nextCarousel}>
+      <button on:click={nextCarousel} class="btn_carrou">
         <img class="arrow" src="../../../img/asset/next.png" alt="next" />
       </button>
     </div>
@@ -155,7 +155,11 @@
       <p style="color: tomato;">{picturePrice} €</p> -->
       <br />
       <!-- <p style="text-decoration: line-through;">{pictureOldPrice} €</p> -->
-      <p>{pictureOldPrice} €</p>
+      {#if !pictureIsSold}
+        <p>{pictureOldPrice} €</p>
+      {:else}
+        <p>SOLD</p>
+      {/if}
       <br />
       <p>{picturePlace}</p>
       <br />
@@ -167,30 +171,27 @@
       <br />
       <p>Print {pictureNo}</p>
       <br />
-      <p>{pictureIsSold}</p>
-      <a
-        class="addtocart"
-        target="_blank"
-        rel="noreferrer"
-        href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20dans%20le%20format%20${pictureSize}%20pour%20${pictureOldPrice}€.%20Est-elle%20encore%20disponible%20%3F%20%F0%9F%98%8D%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
-        >WhatsApp</a
-      >
-      <br />
-      <a
-        class="addtocart"
-        target="_blank"
-        rel="noreferrer"
-        href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - ${pictureSize} - ${pictureOldPrice}€ 📸🚀`}
-        >Email</a
-      >
-      <!-- <br />
-      <a
-        class="addtocart"
-        target="_blank"
-        rel="noreferrer"
-        href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20dans%20le%20format%20${pictureSize}.%20Est-elle%20encore%20disponible%20%3F%20%F0%9F%98%8D%0ASi%20oui%2C%20voici%20le%20prix%20que%20je%20te%20propose%20%3A%20XXX%20%E2%82%AC%0AQu%27en%20penses-tu%20%3F%20%F0%9F%98%89%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
-        >Make an offer</a
-      > -->
+      {#if !pictureIsSold}
+        <a
+          class="addtocart"
+          target="_blank"
+          rel="noreferrer"
+          href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20dans%20le%20format%20${pictureSize}%20pour%20${pictureOldPrice}€.%20Est-elle%20encore%20disponible%20%3F%20%F0%9F%98%8D%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
+          >WhatsApp</a
+        >
+        <br />
+        <a
+          class="addtocart"
+          target="_blank"
+          rel="noreferrer"
+          href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - ${pictureSize} - ${pictureOldPrice}€ 📸🚀`}
+          >Email</a
+        >
+      {:else}
+        <button disabled class="addtocart_disabled">WhatsApp</button>
+        <br />
+        <button disabled class="addtocart_disabled">Email</button>
+      {/if}
     {/if}
   </div>
 </div>
@@ -253,7 +254,7 @@
     text-align: center;
   }
 
-  button {
+  .btn_carrou {
     height: 30px;
     width: 30px;
     display: flex;
@@ -266,7 +267,7 @@
     height: 30px;
     width: 30px;
   }
-  button:hover {
+  .btn_carrou:hover {
     cursor: pointer;
   }
   .addtocart {
@@ -282,6 +283,31 @@
     color: #fff;
     background-color: #000;
   }
+
+  .addtocart_disabled {
+    color: #000;
+    background: none;
+    border: 2px solid #000;
+    font-family: "bd-supper";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 0.5rem;
+    width: 16.25rem;
+    font-size: medium;
+  }
+
+  .addtocart_disabled:hover {
+    color: #fff;
+    background-color: #ccc;
+    border: 2px solid #ccc;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+  }
+
   @media (max-width: 767px) {
     .image_carousel {
       max-width: 80vw;
