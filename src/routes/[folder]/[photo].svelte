@@ -40,6 +40,7 @@
   let pictureNo = null;
   let pictureDesc = null;
   let pictureFull = null;
+  let pictureIsSold = false;
 
   onMount(async () => {
     if (pictureFolder === "shop") {
@@ -55,6 +56,7 @@
           pictureNo = allPhotosArray[i].printNo;
           pictureDesc = allPhotosArray[i].description;
           pictureFull = allPhotosArray[i].full_photo;
+          pictureIsSold = allPhotosArray[i].sold;
           carouselShopPhotos.push(allPhotosArray[i].name);
           carouselShopPhotos.push(allPhotosArray[i].full_photo);
           if (allPhotosArray[i].full_photo2) {
@@ -165,6 +167,7 @@
       <br />
       <p>Print {pictureNo}</p>
       <br />
+      <p>{pictureIsSold}</p>
       <a
         class="addtocart"
         target="_blank"
