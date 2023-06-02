@@ -188,9 +188,21 @@
           >Email</a
         >
       {:else}
-        <button disabled class="addtocart_disabled">WhatsApp</button>
+        <a
+          class="addtocart"
+          target="_blank"
+          rel="noreferrer"
+          href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20j%27aimerais%20donc%20pour%20la%20faire%20r%C3%A9imprimer%20(Print%20No%20${pictureNo+1}%2F5)%20%F0%9F%98%8D%0AComment%20peut-on%20s%27arranger%20%3F%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
+          >WhatsApp</a
+        >
         <br />
-        <button disabled class="addtocart_disabled">Email</button>
+        <a
+          class="addtocart"
+          target="_blank"
+          rel="noreferrer"
+          href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - I would like to reprint (No ${pictureNo + 1}/5 📸🚀`}
+          >Email</a
+        >
         <br />
         <p class="text_reprint">
           *The print No {pictureNo}/5 has been sold and is currently out of
