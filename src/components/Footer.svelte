@@ -29,21 +29,30 @@
   } else if (mounth === 11) {
     fullmounth = "December";
   }
+
+  let isLoading = true;
+
+  setTimeout(() => {
+    isLoading = false;
+  }, 700);
 </script>
 
-<div>
-  <p class="footer_text">
-    © {fullmounth}
-    {year} by
-    <a class="footer_text"
-      href="https://jimmycabuy.com/"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Jimmy Cabuy
-    </a>
-  </p>
-</div>
+{#if !isLoading}
+  <div>
+    <p class="footer_text">
+      © {fullmounth}
+      {year} by
+      <a
+        class="footer_text"
+        href="https://jimmycabuy.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Jimmy Cabuy
+      </a>
+    </p>
+  </div>
+{/if}
 
 <style>
   div {
@@ -53,7 +62,7 @@
   }
   p {
     margin: 1rem;
-    font-family: bd-supper,sans-serif;
+    font-family: bd-supper, sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: justify;
