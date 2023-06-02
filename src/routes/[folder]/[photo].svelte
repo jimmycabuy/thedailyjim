@@ -194,10 +194,8 @@
         <br />
         <p class="text_reprint">
           *The print No {pictureNo}/5 has been sold and is currently out of
-          stock, but feel free to contact me if you would like a reprint.
-        </p>
-        <p class="text_reprint">
-          You will then benefit the print No {pictureNo + 1}/5.
+          stock, but feel free to contact me if you would like a reprint. You
+          will then benefit the print No {pictureNo + 1}/5.
         </p>
       {/if}
     {/if}
@@ -252,7 +250,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 60%;
+    width: 65%;
   }
   p {
     font-family: bd-supper, sans-serif;
