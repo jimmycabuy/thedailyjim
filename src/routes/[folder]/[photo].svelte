@@ -285,9 +285,7 @@
   }
 
   .addtocart_disabled {
-    color: #000;
     background: none;
-    border: 2px solid #000;
     font-family: "bd-supper";
     font-weight: 400;
     font-style: normal;
@@ -295,6 +293,8 @@
     padding: 0.5rem;
     width: 16.25rem;
     font-size: medium;
+    color: #ccc;
+    border: 2px solid #ccc;
   }
 
   .addtocart_disabled:hover {
