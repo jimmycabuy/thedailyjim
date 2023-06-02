@@ -34,7 +34,7 @@
 
   setTimeout(() => {
     isLoading = false;
-  }, 700);
+  }, 1000);
 </script>
 
 {#if !isLoading}
