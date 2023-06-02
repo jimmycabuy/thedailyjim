@@ -7,7 +7,7 @@
     "oldprice": 390,
     "size": "60 cm x 40 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Palm Springs, California, United-States",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -20,7 +20,7 @@
     "oldprice": 390,
     "size": "60 cm x 40 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Seligman on Road 66, Arizona, United-States",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -33,7 +33,7 @@
     "oldprice": 390,
     "size": "40 cm x 60 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Palm Springs, California, United-States",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -46,7 +46,7 @@
     "oldprice": 390,
     "size": "40 cm x 60 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "2/5",
+    "printNo": 2,
     "place": "Universal Studios at Los Angeles, California, United-States",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -59,7 +59,7 @@
     "oldprice": 390,
     "size": "40 cm x 60 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "3/5",
+    "printNo": 3,
     "place": "Santa Cruz, California, United-States",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -72,7 +72,7 @@
     "oldprice": 390,
     "size": "40 cm x 60 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Santa Cruz, California, United-States",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": true
@@ -85,7 +85,7 @@
     "oldprice": 690,
     "size": "60 cm x 90 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Valladolid, Yucatán, Mexico",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 100 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -98,7 +98,7 @@
     "oldprice": 690,
     "size": "60 cm x 90 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Galápagos Island, Ecuador",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 100 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -111,7 +111,7 @@
     "oldprice": 690,
     "size": "60 cm x 90 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Brussels, Belgium",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 100 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -124,7 +124,7 @@
     "oldprice": 390,
     "size": "40 cm x 60 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Vancouver, British Columbia, Canada",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -137,7 +137,7 @@
     "oldprice": 390,
     "size": "40 cm x 60 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Vancouver, British Columbia, Canada",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": false
@@ -150,7 +150,7 @@
     "oldprice": 390,
     "size": "40 cm x 60 cm",
     "paper": "Hahnemühle Fine Art matte agave paper",
-    "printNo": "1/5",
+    "printNo": 1,
     "place": "Vancouver, British Columbia, Canada",
     "description": "This exclusive print is limited to five copies, each of which is dated, numbered, and signed. It comes with a Nielsen Alpha silver aluminium frame and glass, but can also be purchased without the frame for 50 euros less. Certificate of authenticity is included as well.",
     "sold": false

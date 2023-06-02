@@ -169,7 +169,7 @@
       <br />
       <p>{picturePaper}</p>
       <br />
-      <p>Print {pictureNo}</p>
+      <p>Print No {pictureNo}/5</p>
       <br />
       {#if !pictureIsSold}
         <a
@@ -192,8 +192,8 @@
         <br />
         <button disabled class="addtocart_disabled">Email</button>
         <br>
-        <p>The print No {pictureNo} has been sold and is currently out of stock, but feel free to contact me if you would like a reprint.</p>
-        <p>You will then benefit the print No 2/5.</p>
+        <p>The print No {pictureNo}/5 has been sold and is currently out of stock, but feel free to contact me if you would like a reprint.</p>
+        <p>You will then benefit the print No {pictureNo + 1}/5.</p>
       {/if}
     {/if}
   </div>
