@@ -150,6 +150,7 @@
     margin-bottom: 1rem;
     color: #000;
     font-size: 0.9rem;
+    transition: 0.3s;
   }
   button:hover {
     color: #fff;

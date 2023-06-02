@@ -36,6 +36,14 @@
 {#if isLoading}
   <Spinner />
 {:else}
+  <p class="paragraph_shop">
+    Please note that the photos displayed in the shop below are the printed and
+    framed photos currently in stock.
+    <br />
+    They represent a selection of available photos for sale, but they are not the
+    only ones available.*
+    <br />
+  </p>
   <div class="auto-grid">
     {#each allPhotosJSON as photo, i}
       <a class="photo_link" href="/{photo.folder}/{photo.name}">
@@ -61,7 +69,7 @@
   </div>
   <div class="box_demand">
     <p class="paragraph_demand">
-      All the photographs featured on my website can be printed and
+      *All the photographs featured on my website can be printed and
       custom-framed upon request.
       <br />
       If you're interested in owning a physical copy of any image or would like more
@@ -110,6 +118,11 @@
     padding: 0 1rem 0 1rem;
   }
 
+  .paragraph_shop {
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+  }
+
   .paragraph_demand {
     text-align: center;
   }
@@ -122,6 +135,7 @@
     text-align: center;
     padding: 0.5rem;
     width: 10rem;
+    transition: 0.3s;
   }
   .addtocart:hover {
     color: #fff;

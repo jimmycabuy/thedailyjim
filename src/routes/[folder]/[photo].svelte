@@ -296,6 +296,7 @@
     text-align: center;
     padding: 0.5rem;
     width: 15rem;
+    transition: 0.3s;
   }
   .addtocart:hover {
     color: #fff;
