@@ -224,9 +224,15 @@
     animation: animate 30s linear infinite;
   }
 
-  .a:hover {
+  .text1:hover,
+  .text2:hover,
+  .text3:hover,
+  .text4:hover,
+  .text5:hover,
+  .text6:hover,
+  .text7:hover,
+  .text8:hover {
     animation-play-state: paused;
-    cursor: pointer;
   }
 
   /* hr {
