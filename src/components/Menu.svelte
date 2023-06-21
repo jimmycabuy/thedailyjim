@@ -272,10 +272,6 @@
     -webkit-text-stroke: 2px #fff;
   }
 
-  section div:last-child {
-    border-bottom: 1.2px solid black;
-  }
-
   .a {
     display: flex;
     height: 9.3vh;
@@ -285,14 +281,9 @@
     border-top: 1.2px solid #000;
   }
 
-  /* .a_about {
-    display: flex;
-    height: 9.3vh;
-    background-color: #000;
-    flex-direction: column;
-    justify-content: center;
-    border-top: 1.2px solid #000;
-  } */
+  section .a:last-child {
+    border-bottom: 1.2px solid #000;
+  }
 
   .a:hover {
     background-color: #000;
