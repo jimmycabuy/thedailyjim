@@ -12,15 +12,6 @@
   const removeMenuDisplay = () => {
     menuToggle = false;
   };
-
-  // let m = { x: 0, y: 0 };
-
-  // function handleMousemove(event) {
-  // 	m.x = event.clientX;
-  // 	m.y = event.clientY;
-  //   console.log("x : " + m.x)
-  //   console.log("y : " + m.y)
-  // }
 </script>
 
 <Navbar on:menudisplay={removeMenuDisplay}>
@@ -35,7 +26,6 @@
   <Menu on:menudisplay={removeMenuDisplay} />
 {/if}
 
-<!-- <main on:mousemove={handleMousemove}> -->
 <main class:menu-open={menuToggle} class="main-content">
   <slot />
 </main>
@@ -44,6 +34,6 @@
 
 <style>
   .main-content.menu-open {
-    display: none; /* Masque le contenu principal */
+    display: none;
   }
 </style>
