@@ -123,7 +123,7 @@
       <div class="div scroll text5">
         <p class="menu_item">
           {#each Array(100) as _}
-            <span class="span_contour no_sub">ABOUT ME</span><span class="span_normal no_sub"
+            <span class="span_contour no_sup">ABOUT ME</span><span class="span_normal no_sup"
               >ABOUT ME</span
             >
           {/each}
@@ -151,7 +151,7 @@
       <div class="div scroll text6">
         <p class="menu_item">
           {#each Array(100) as _}
-            <span class="span_contour no_sub">CONTACT</span><span class="span_normal no_sub"
+            <span class="span_contour no_sup">CONTACT</span><span class="span_normal no_sup"
               >CONTACT</span
             >
           {/each}
@@ -249,7 +249,7 @@
     padding-left: 10px;
   }
 
-  .no_sub{
+  .no_sup{
     padding-right: 10px;
   }
 
