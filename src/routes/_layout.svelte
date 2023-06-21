@@ -7,7 +7,6 @@
 
   const toggleMenu = () => {
     menuToggle = !menuToggle;
-    document.body.scrollIntoView();
   };
 
   const removeMenuDisplay = () => {
