@@ -167,11 +167,11 @@
     z-index: 3;
     width: 100%;
     overflow: hidden;
-    background-color: #fff;
+    /* background-color: #fff;
     height: 90.4vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-start; */
   }
   .section .scroll {
     width: 100%;
