@@ -38,7 +38,7 @@
       color: #fff !important;
       background-color: #000 !important;
     }
-    .span {
+    .span_contour {
       -webkit-text-stroke: 2px #fff !important;
     }
     .a {
@@ -52,7 +52,7 @@
       background-color: #fff !important;
       color: #000 !important;
     }
-    .a:hover .div p .span {
+    .a:hover .div p .span_contour {
       -webkit-text-stroke: 2px #000 !important;
     }
     .a:hover {
