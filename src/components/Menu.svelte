@@ -41,7 +41,9 @@
       <div class="div scroll text1">
         <p class="menu_item">
           {#each Array(100) as _}
-            USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
+            <span class="span_contour">USA</span><sup>[{countUsa}]</sup><span
+              class="span_normal">USA</span
+            ><sup>[{countUsa}]</sup>
           {/each}
         </p>
       </div>
@@ -52,114 +54,10 @@
     <a href="/canada" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text2">
         <p class="menu_item">
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
-          CANADA<sup>[{countCanada}] </sup> <span class="span"> CANADA</span><sup
-            >[{countCanada}]
-          </sup>
+          {#each Array(100) as _}
+            <span class="span_contour">CANADA</span><sup>[{countCanada}]</sup
+            ><span class="span_normal">CANADA</span><sup>[{countCanada}]</sup>
+          {/each}
         </p>
       </div>
     </a>
@@ -169,141 +67,10 @@
     <a href="/mexico" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text3">
         <p class="menu_item">
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
-          MEXICO<sup>[{countMexico}] </sup> <span class="span"> MEXICO</span><sup
-            >[{countMexico}]
-          </sup>
+          {#each Array(100) as _}
+            <span class="span_contour">MEXICO</span><sup>[{countMexico}]</sup
+            ><span class="span_normal">MEXICO</span><sup>[{countMexico}]</sup>
+          {/each}
         </p>
       </div>
     </a>
@@ -313,141 +80,14 @@
     <a href="/costarica" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text4">
         <p class="menu_item">
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
-          COSTA RICA<sup>[{countCostaRica}] </sup> <span class="span"> COSTA RICA</span><sup
-            >[{countCostaRica}]
-          </sup>
+          {#each Array(100) as _}
+            <span class="span_contour">COSTA RICA</span><sup
+              >[{countCostaRica}]</sup
+            >
+            <span class="span_normal">COSTA RICA</span><sup
+              >[{countCostaRica}]</sup
+            >
+          {/each}
         </p>
       </div>
     </a>
@@ -457,141 +97,10 @@
     <a href="/ecuador" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text7">
         <p class="menu_item">
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
-          ECUADOR<sup>[{countEcuador}] </sup> <span class="span"> ECUADOR</span><sup
-            >[{countEcuador}]
-          </sup>
+          {#each Array(100) as _}
+            <span class="span_contour">ECUADOR</span><sup>[{countEcuador}]</sup
+            ><span class="span_normal">ECUADOR</span><sup>[{countEcuador}]</sup>
+          {/each}
         </p>
       </div>
     </a>
@@ -601,206 +110,24 @@
     <a href="/europe" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text2">
         <p class="menu_item">
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
-          EUROPE<sup>[{countEurope}] </sup> <span class="span"> EUROPE</span><sup
-            >[{countEurope}]
-          </sup>
+          {#each Array(100) as _}
+            <span class="span_contour">EUROPE</span><sup>[{countEurope}]</sup
+            ><span class="span_normal">EUROPE</span><sup>[{countEurope}]</sup>
+          {/each}
         </p>
       </div>
     </a>
   </div>
 
   <div class="div a">
-  <!-- <div class="div a_about"> -->
     <a href="/about" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text5">
         <p class="menu_item">
-        <!-- <p class="menu_item_about"> -->
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
-          ABOUT ME <span class="span"> ABOUT ME</span>
+          {#each Array(100) as _}
+            <span class="span_contour">ABOUT ME</span><span class="span_normal"
+              >ABOUT ME</span
+            >
+          {/each}
         </p>
       </div>
     </a>
@@ -810,84 +137,11 @@
     <a href="/shop" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text8">
         <p class="menu_item">
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
-          SHOP<sup>[{countShop}] </sup> <span class="span"> SHOP</span><sup
-            >[{countShop}]
-          </sup>
+          {#each Array(100) as _}
+            <span class="span_contour">SHOP</span><sup>[{countShop}]</sup><span
+              class="span_normal">SHOP</span
+            ><sup>[{countShop}]</sup>
+          {/each}
         </p>
       </div>
     </a>
@@ -897,74 +151,15 @@
     <a href="/contact" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text6">
         <p class="menu_item">
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
-          CONTACT <span class="span"> CONTACT</span>
+          {#each Array(100) as _}
+            <span class="span_contour">CONTACT</span><span class="span_normal"
+              >CONTACT</span
+            >
+          {/each}
         </p>
       </div>
     </a>
   </div>
-
 </section>
 
 <style>
@@ -990,7 +185,7 @@
     background: #fff;
     text-transform: uppercase;
     white-space: nowrap;
-    font-family: bd-supper,sans-serif;
+    font-family: bd-supper, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
@@ -1049,9 +244,14 @@
     border: none;
     margin: 0;
   } */
-  .span {
+  .span_contour {
     -webkit-text-stroke: 2px #000;
     color: transparent;
+    padding-left: 10px;
+  }
+
+  .span_normal {
+    padding-left: 10px;
   }
 
   /* .menu_item_about span {
@@ -1066,7 +266,7 @@
     background-color: #000;
     color: #fff;
   }
-  .a:hover .div p .span {
+  .a:hover .div p .span_contour {
     -webkit-text-stroke: 2px #fff;
   }
 
@@ -1137,10 +337,10 @@
       vertical-align: 0.6rem;
       font-size: 0.3rem;
     }
-    .span {
+    .span_contour {
       -webkit-text-stroke: 1px #000;
     }
-    .a:hover .div p .span {
+    .a:hover .div p .span_contour {
       -webkit-text-stroke: 1px #fff;
     }
   }
