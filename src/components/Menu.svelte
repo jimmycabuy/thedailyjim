@@ -224,8 +224,9 @@
     animation: animate 30s linear infinite;
   }
 
-  .a {
+  .a:hover {
     animation-play-state: paused;
+    cursor: pointer;
   }
 
   /* hr {
@@ -255,7 +256,6 @@
 
   .a:hover .div {
     background-color: #000;
-    cursor: pointer;
   }
 
   .a:hover .div p {
