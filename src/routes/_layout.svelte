@@ -48,4 +48,3 @@
     display: none; /* Masque le contenu principal */
   }
 </style>
-∑
