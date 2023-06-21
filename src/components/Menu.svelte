@@ -83,8 +83,7 @@
           {#each Array(100) as _}
             <span class="span_contour">COSTA RICA</span><sup
               >[{countCostaRica}]</sup
-            >
-            <span class="span_normal">COSTA RICA</span><sup
+            ><span class="span_normal">COSTA RICA</span><sup
               >[{countCostaRica}]</sup
             >
           {/each}
