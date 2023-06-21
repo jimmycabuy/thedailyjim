@@ -171,7 +171,7 @@
     height: 90.4vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
   .section .scroll {
     width: 100%;
