@@ -37,11 +37,15 @@
 {/if}
 
 <!-- <main on:mousemove={handleMousemove}> -->
-<main>
+<main class:menu-hide={menuToggle} class="main-content">
   <slot />
 </main>
 
 <Footer />
 
 <style>
+  .main-content.menu-hide {
+    display: none; /* Masque le contenu principal */
+  }
 </style>
+∑

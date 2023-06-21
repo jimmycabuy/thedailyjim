@@ -171,8 +171,7 @@
     height: 90.4vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding-bottom: 2rem;
+    justify-content: space-around;
   }
   .section .scroll {
     width: 100%;
