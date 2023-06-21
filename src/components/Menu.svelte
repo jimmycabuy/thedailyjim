@@ -224,14 +224,7 @@
     animation: animate 30s linear infinite;
   }
 
-  .text1:hover,
-  .text2:hover,
-  .text3:hover,
-  .text4:hover,
-  .text5:hover,
-  .text6:hover,
-  .text7:hover,
-  .text8:hover {
+  .a {
     animation-play-state: paused;
   }
 
@@ -262,6 +255,7 @@
 
   .a:hover .div {
     background-color: #000;
+    cursor: pointer;
   }
 
   .a:hover .div p {
