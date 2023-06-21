@@ -40,69 +40,9 @@
     <a href="/usa" on:click={() => dispatch("menudisplay")}>
       <div class="div scroll text1">
         <p class="menu_item">
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
-          USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
+          {#each Array(100) as _}
+            USA<sup>[{countUsa}] </sup> <span class="span"> USA</span><sup>[{countUsa}] </sup>
+          {/each}
         </p>
       </div>
     </a>
