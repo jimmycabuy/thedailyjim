@@ -174,7 +174,7 @@
     display: flex;
   }
   .div {
-    font-size: 3.1remj;
+    font-size: 3.1rem;
     background: #fff;
     text-transform: uppercase;
     white-space: nowrap;
