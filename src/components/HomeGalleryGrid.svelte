@@ -47,27 +47,30 @@
 
 {#if isLoading}
   <Spinner />
-{:else}
-  <article>
-    {#each loadedPhotos as photo, i}
-      <section>
-        <div class="images">
-          <a href="/{photo.folder}/{photo.name}">
-            <img
-              src={`../../img/${photo.folder}/${photo.name}.webp`}
-              alt={photo.name}
-              width="100%"
-              height="100%"
-              loading="lazy"
-            />
-          </a>
-        </div>
-      </section>
-    {/each}
-  </article>
 {/if}
+<article class:is-loading={isLoading} class="homegallery">
+  {#each loadedPhotos as photo, i}
+    <section>
+      <div class="images">
+        <a href="/{photo.folder}/{photo.name}">
+          <img
+            src={`../../img/${photo.folder}/${photo.name}.webp`}
+            alt={photo.name}
+            width="100%"
+            height="100%"
+            loading="lazy"
+          />
+        </a>
+      </div>
+    </section>
+  {/each}
+</article>
 
 <style>
+  .homegallery.is-loading {
+    visibility: hidden;
+  }
+
   article {
     columns: 10;
     padding: 1rem;

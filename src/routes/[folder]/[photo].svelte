@@ -151,10 +151,7 @@
       <p>{picturePlace}</p>
     {:else}
       <p style="font-size: 110%;">{pictureName}</p>
-      <!-- <br />
-      <p style="color: tomato;">{picturePrice} €</p> -->
       <br />
-      <!-- <p style="text-decoration: line-through;">{pictureOldPrice} €</p> -->
       {#if !pictureIsSold}
         <p>{pictureOldPrice} €</p>
       {:else}
@@ -192,7 +189,9 @@
           class="addtocart"
           target="_blank"
           rel="noreferrer"
-          href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20j%27aimerais%20donc%20la%20faire%20r%C3%A9imprimer%20(Print%20No%20${pictureNo+1}%2F5)%20%F0%9F%98%8D%0AComment%20peut-on%20s%27arranger%20%3F%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
+          href={`https://api.whatsapp.com/send?phone=32474917815&text=Hello%20Jimmy%20%F0%9F%91%8B%0AJe%20suis%20int%C3%A9ress%C3%A9%20par%20la%20photo%20${pictureName}%2C%20j%27aimerais%20donc%20la%20faire%20r%C3%A9imprimer%20(Print%20No%20${
+            pictureNo + 1
+          }%2F5)%20%F0%9F%98%8D%0AComment%20peut-on%20s%27arranger%20%3F%0AMerci%20et%20belle%20journ%C3%A9e%2C`}
           >WhatsApp*</a
         >
         <br />
@@ -200,8 +199,9 @@
           class="addtocart"
           target="_blank"
           rel="noreferrer"
-          href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - I would like to reprint (No ${pictureNo + 1}/5) 📸🚀`}
-          >Email*</a
+          href={`mailto:jimmycabuy@hotmail.com?subject=${pictureName} - I would like to reprint (No ${
+            pictureNo + 1
+          }/5) 📸🚀`}>Email*</a
         >
         <br />
         <p class="text_reprint">
@@ -302,25 +302,6 @@
     color: #fff;
     background-color: #000;
   }
-
-  /* .addtocart_disabled {
-    background: none;
-    font-family: "bd-supper";
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    padding: 0.5rem;
-    width: 16.25rem;
-    font-size: medium;
-    color: #ccc;
-    border: 2px solid #ccc;
-  }
-
-  .addtocart_disabled:hover {
-    color: #fff;
-    background-color: #ccc;
-    border: 2px solid #ccc;
-  } */
 
   button:disabled {
     cursor: not-allowed;

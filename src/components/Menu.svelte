@@ -167,11 +167,6 @@
     z-index: 3;
     width: 100%;
     overflow: hidden;
-    /* background-color: #fff;
-    height: 90.4vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; */
   }
   .section .scroll {
     width: 100%;
@@ -179,7 +174,7 @@
     display: flex;
   }
   .div {
-    font-size: 3.1rem;
+    font-size: 3.1remj;
     background: #fff;
     text-transform: uppercase;
     white-space: nowrap;
@@ -192,9 +187,6 @@
     background-color: #fff;
   }
 
-  /* .menu_item_about {
-    background-color: #000;
-  } */
   .text1 {
     animation: animate 55s linear infinite;
   }
@@ -234,14 +226,6 @@
   .text8:hover {
     animation-play-state: paused;
   }
-
-  /* hr {
-    height: 1.2px;
-    width: 100%;
-    background-color: #000;
-    border: none;
-    margin: 0;
-  } */
   .span_contour {
     -webkit-text-stroke: 2px #000;
     color: transparent;
@@ -255,10 +239,6 @@
   .span_normal {
     padding-left: 10px;
   }
-
-  /* .menu_item_about span {
-    -webkit-text-stroke: 2px #fff;
-  } */
 
   .a:hover .div {
     background-color: #000;
@@ -313,10 +293,34 @@
     .a {
       height: 8.6vh;
     }
-    /* .a,
-    .a_about {
-      height: 8.6vh;
-    } */
+    .text1 {
+      animation: animate 25s linear infinite;
+    }
+
+    .text2 {
+      animation: animate 10s linear infinite;
+    }
+
+    .text3 {
+      animation: animate 12s linear infinite;
+    }
+
+    .text4 {
+      animation: animate 15s linear infinite;
+    }
+    .text5 {
+      animation: animate 10s linear infinite;
+      /* color: #fff; */
+    }
+    .text6 {
+      animation: animate 13s linear infinite;
+    }
+    .text7 {
+      animation: animate 18s linear infinite;
+    }
+    .text8 {
+      animation: animate 11s linear infinite;
+    }
   }
   /* smartphone landscape  */
   @media (max-width: 850px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
@@ -326,10 +330,6 @@
     .a {
       height: 6.7vh;
     }
-    /* .a,
-    .a_about {
-      height: 6.7vh;
-    } */
     sup {
       vertical-align: 0.6rem;
       font-size: 0.3rem;

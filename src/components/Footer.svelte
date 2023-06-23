@@ -29,30 +29,22 @@
   } else if (mounth === 11) {
     fullmounth = "December";
   }
-
-  let isLoading = true;
-
-  setTimeout(() => {
-    isLoading = false;
-  }, 1000);
 </script>
 
-{#if !isLoading}
-  <div>
-    <p class="footer_text">
-      © {fullmounth}
-      {year} by
-      <a
-        class="footer_text"
-        href="https://jimmycabuy.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Jimmy Cabuy
-      </a>
-    </p>
-  </div>
-{/if}
+<div>
+  <p class="footer_text">
+    © {fullmounth}
+    {year} by
+    <a
+      class="footer_text"
+      href="https://jimmycabuy.com/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Jimmy Cabuy
+    </a>
+  </p>
+</div>
 
 <style>
   div {

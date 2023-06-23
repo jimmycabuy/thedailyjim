@@ -57,10 +57,6 @@
           />
           <div class="box_name_price">
             <p>{photo.name}</p>
-            <!-- <p style="color: tomato;">SALES</p>
-            <p style="color: tomato;">50% off</p>
-            <p style="color: tomato;">{photo.price} €</p> -->
-            <!-- <p style="text-decoration: line-through;">{photo.oldprice} €</p> -->
             <p>{photo.oldprice} €</p>
           </div>
         </div>
@@ -85,7 +81,6 @@
       href="https://wa.link/2vi05h"
       >WhatsApp
     </a>
-    <!-- href="https://wa.link/lkyiri" -->
   </div>
 {/if}
 

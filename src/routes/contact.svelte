@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import Spinner from "../components/Spinner.svelte";
-  let messageSent = false;
+  let isMessageSent = false;
   let isLoading = true;
 
   onMount(() => {
@@ -16,7 +16,7 @@
       setTimeout(() => {
         isLoading = false;
       }, 1000);
-      messageSent = true;
+      isMessageSent = true;
     });
   });
 </script>
@@ -25,7 +25,7 @@
   <title>thedailyjim | contact</title>
 </svelte:head>
 
-{#if !messageSent}
+{#if !isMessageSent}
   <div class="container_contact">
     <h2>Fill the form. It's easy</h2>
 
