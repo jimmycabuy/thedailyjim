@@ -37,7 +37,7 @@
     {year} by
     <a
       class="footer_text"
-      href="https://jimmycabuy.com/"
+      href="https://jimmy-cabuy.vercel.app"
       target="_blank"
       rel="noreferrer"
     >
