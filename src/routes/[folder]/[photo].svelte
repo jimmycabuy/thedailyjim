@@ -90,6 +90,7 @@
         src="../../../img/asset/previous.png"
         alt="previous"
         class="arrow_back"
+        preload
       />
       HOME
     </a>
@@ -101,6 +102,7 @@
         src="../../../img/asset/previous.png"
         alt="previous"
         class="arrow_back"
+        preload
       />
       {#if pictureFolder === "costarica"}
         COSTA RICA
@@ -117,6 +119,7 @@
       class="image_simple"
       src={`../../../img/${pictureFolder}/${pictureName}.webp`}
       alt={pictureName}
+      preload
     />
   </div>
 {:else}
@@ -127,6 +130,7 @@
           class="arrow"
           src="../../../img/asset/previous.png"
           alt="previous"
+          preload
         />
       </button>
       {#each [carouselShopPhotos[indexCarousel]] as photo}
@@ -135,11 +139,12 @@
             class="image_carousel"
             src={`../../../img/${pictureFolder}/${photo}.webp`}
             alt={pictureName}
+            preload
           />
         </div>
       {/each}
       <button on:click={nextCarousel} class="btn_carrou">
-        <img class="arrow" src="../../../img/asset/next.png" alt="next" />
+        <img class="arrow" src="../../../img/asset/next.png" alt="next" preload />
       </button>
     </div>
   </div>

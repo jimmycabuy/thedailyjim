@@ -54,6 +54,7 @@
             width="100%"
             height="100%"
             loading="lazy"
+            preload
           />
           <div class="box_name_price">
             <p>{photo.name}</p>

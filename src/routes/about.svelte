@@ -70,6 +70,7 @@
         class="profilepicture"
         src="../../img/profilepic/jimmycabuy.webp"
         alt="jimmycabuy"
+        preload
       />
     </div>
     <div>
