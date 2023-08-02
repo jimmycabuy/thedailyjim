@@ -48,7 +48,7 @@
       </div>
       <div class="one_element_form">
         <label for="phone">Phone Number</label>
-        <input type="number" name="phone" id="phone" inputmode="numeric" />
+        <input type="number" name="phone" id="phone" inputmode="tel" />
       </div>
       <div class="one_element_form">
         <label for="message">Message*</label>
