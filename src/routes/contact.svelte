@@ -44,11 +44,11 @@
       </div>
       <div class="one_element_form">
         <label for="email">Email*</label>
-        <input type="email" name="email" id="email" required />
+        <input type="email" name="email" id="email" required inputmode="email" />
       </div>
       <div class="one_element_form">
         <label for="phone">Phone Number</label>
-        <input type="number" name="phone" id="phone" />
+        <input type="number" name="phone" id="phone" inputmode="numeric" />
       </div>
       <div class="one_element_form">
         <label for="message">Message*</label>
