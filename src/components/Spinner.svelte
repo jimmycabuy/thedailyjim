@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: 80dvh;
   }
   .lds-ripple {
     display: inline-block;
@@ -58,9 +58,9 @@
       opacity: 0;
     }
   }
-  /* @media (max-width: 767px) {
+  @media (max-width: 767px) {
     .loading {
-      height: 70vh;
+      height: 70dvh;
     }
-  } */
+  }
 </style>
