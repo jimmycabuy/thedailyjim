@@ -74,7 +74,7 @@
 
   article {
     columns: 10;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
   }
   section {
     margin-bottom: 2px;
