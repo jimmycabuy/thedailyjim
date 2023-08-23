@@ -26,7 +26,7 @@
     z-index: 4;
     top: 0;
     background-color: #fff;
-    height: 5vh;
+    height: 5dvh;
     align-items: center;
     font-family: bd-supper, sans-serif;
     font-weight: 700;

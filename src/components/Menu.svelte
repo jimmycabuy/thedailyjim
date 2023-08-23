@@ -167,6 +167,10 @@
     z-index: 3;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90dvh;
   }
   .section .scroll {
     width: 100%;
@@ -181,6 +185,7 @@
     font-family: bd-supper, sans-serif;
     font-weight: 700;
     font-style: normal;
+    height: 100%;
   }
 
   .menu_item {
@@ -254,16 +259,15 @@
 
   .a {
     display: flex;
-    height: 9.3vh;
     background-color: #fff;
     flex-direction: column;
     justify-content: center;
     border-top: 1.2px solid #000;
   }
 
-  section .a:last-child {
+  /* section .a:last-child {
     border-bottom: 1.2px solid #000;
-  }
+  } */
 
   .a:hover {
     background-color: #000;
@@ -289,9 +293,6 @@
   @media (max-width: 767px) and (orientation: portrait) {
     .div {
       font-size: 3.1rem;
-    }
-    .a {
-      height: 8.6vh;
     }
     .text1 {
       animation: animate 25s linear infinite;
@@ -326,9 +327,6 @@
   @media (max-width: 850px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
     .div {
       font-size: 1.5rem;
-    }
-    .a {
-      height: 6.7vh;
     }
     sup {
       vertical-align: 0.6rem;
