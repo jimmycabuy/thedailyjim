@@ -14,26 +14,30 @@
   };
 </script>
 
-<Navbar on:menudisplay={removeMenuDisplay}>
-  {#if !menuToggle}
-    <span on:click={toggleMenu} role="presentation">MENU</span>
-  {:else}
-    <span on:click={toggleMenu} role="presentation">CLOSE</span>
+<div>
+  <Navbar on:menudisplay={removeMenuDisplay}>
+    {#if !menuToggle}
+      <span on:click={toggleMenu} role="presentation">MENU</span>
+    {:else}
+      <span on:click={toggleMenu} role="presentation">CLOSE</span>
+    {/if}
+  </Navbar>
+
+  {#if menuToggle}
+    <Menu on:menudisplay={removeMenuDisplay} />
   {/if}
-</Navbar>
 
-{#if menuToggle}
-  <Menu on:menudisplay={removeMenuDisplay} />
-{/if}
-
-<main class:menu-open={menuToggle} class="main-content">
-  <slot />
-</main>
-
-<Footer />
+  {#if !menuToggle}
+    <slot />
+    <Footer />
+  {/if}
+</div>
 
 <style>
-  .main-content.menu-open {
-    display: none;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100dvh;
   }
 </style>

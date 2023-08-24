@@ -170,7 +170,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90dvh;
+    height: 100%;
   }
   .section .scroll {
     width: 100%;
