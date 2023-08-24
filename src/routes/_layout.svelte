@@ -27,8 +27,11 @@
     <Menu on:menudisplay={removeMenuDisplay} />
   {/if}
 
-  {#if !menuToggle}
+  <main class:menu-open={menuToggle} class="main-content">
     <slot />
+  </main>
+
+  {#if !menuToggle}
     <Footer />
   {/if}
 </div>
@@ -39,5 +42,8 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100dvh;
+  }
+  .main-content.menu-open {
+    display: none;
   }
 </style>

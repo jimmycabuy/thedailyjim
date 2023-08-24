@@ -163,14 +163,14 @@
 
 <style>
   .section {
-    position: absolute;
-    z-index: 3;
+    /* position: absolute; */
+    /* z-index: 3; */
     width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 90dvh;
   }
   .section .scroll {
     width: 100%;
