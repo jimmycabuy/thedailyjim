@@ -75,7 +75,8 @@
   }
   section {
     margin-bottom: 2px;
-    margin-right: -10px;
+    margin-right: -5px;
+    margin-left: -5px;
     transition: 0.3s ease;
   }
   section:hover {

@@ -64,11 +64,12 @@
 
 <style>
   article {
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
   }
   section {
     margin-bottom: 2px;
-    margin-right: -10px;
+    margin-right: -5px;
+    margin-left: -5px;
     transition: 0.3s ease;
   }
   section:hover {
