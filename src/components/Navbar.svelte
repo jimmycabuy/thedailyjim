@@ -33,9 +33,14 @@
     font-style: normal;
   }
 
+  @media (width >= 768px) {
+    h1:hover {
+      color: #888;
+    }
+  }
+
   h1:hover {
     cursor: pointer;
-    color: #888;
   }
 
   h1 {

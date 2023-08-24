@@ -73,7 +73,12 @@
   }
   section:hover {
     cursor: pointer;
-    filter: brightness(50%);
+  }
+
+  @media (width >= 768px) {
+    section:hover {
+      filter: brightness(50%);
+    }
   }
   /* smartphone  */
   @media (max-width: 767px) {

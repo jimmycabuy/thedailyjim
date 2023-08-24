@@ -144,8 +144,14 @@
 
   .photo_link:hover {
     cursor: pointer;
-    filter: brightness(50%);
   }
+
+  @media (width >= 768px) {
+    .photo_link:hover {
+      filter: brightness(50%);
+    }
+  }
+
   .box_name_price {
     display: flex;
     justify-content: space-between;
