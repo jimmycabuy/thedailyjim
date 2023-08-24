@@ -9,7 +9,7 @@
 </script>
 
 <script>
-  import { fade } from "svelte/transition";
+  import { blur } from "svelte/transition";
 
   import { onMount } from "svelte";
 
@@ -114,7 +114,7 @@
 {/if}
 
 {#if !pictureFull}
-  <div class="block_image" transition:fade>
+  <div class="block_image" in:blur>
     <img
       class="image_simple"
       src={`../../../img/${pictureFolder}/${pictureName}.webp`}
@@ -123,7 +123,7 @@
     />
   </div>
 {:else}
-  <div class="block_carousel" transition:fade>
+  <div class="block_carousel" in:blur>
     <div class="block_image_carousel">
       <button on:click={previousCarousel} class="btn_carrou">
         <img
@@ -150,7 +150,7 @@
   </div>
 {/if}
 
-<div class="container_text" transition:fade>
+<div class="container_text" in:blur>
   <div class="block_text">
     {#if !picturePrice}
       <p>{picturePlace}</p>
