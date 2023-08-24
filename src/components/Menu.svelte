@@ -36,8 +36,8 @@
 </script>
 
 <section class="section">
-  <div class="div a">
-    <a href="/usa" on:click={() => dispatch("menudisplay")}>
+  <a href="/usa" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text1">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -47,11 +47,11 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="div a">
-    <a href="/canada" on:click={() => dispatch("menudisplay")}>
+  <a href="/canada" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text2">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -60,11 +60,11 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="div a">
-    <a href="/mexico" on:click={() => dispatch("menudisplay")}>
+  <a href="/mexico" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text3">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -73,11 +73,11 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="div a">
-    <a href="/costarica" on:click={() => dispatch("menudisplay")}>
+  <a href="/costarica" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text4">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -89,11 +89,11 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="div a">
-    <a href="/ecuador" on:click={() => dispatch("menudisplay")}>
+  <a href="/ecuador" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text7">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -102,11 +102,11 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="div a">
-    <a href="/europe" on:click={() => dispatch("menudisplay")}>
+  <a href="/europe" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text2">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -115,11 +115,11 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="div a">
-    <a href="/about" on:click={() => dispatch("menudisplay")}>
+  <a href="/about" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text5">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -129,11 +129,11 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="div a">
-    <a href="/shop" on:click={() => dispatch("menudisplay")}>
+  <a href="/shop" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text8">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -143,11 +143,11 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="div a">
-    <a href="/contact" on:click={() => dispatch("menudisplay")}>
+  <a href="/contact" on:click={() => dispatch("menudisplay")} class="div a">
+    <div>
       <div class="div scroll text6">
         <p class="menu_item">
           {#each Array(100) as _}
@@ -157,8 +157,8 @@
           {/each}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 </section>
 
 <style>
@@ -221,14 +221,14 @@
     animation: animate 30s linear infinite;
   }
 
-  .text1:hover,
-  .text2:hover,
-  .text3:hover,
-  .text4:hover,
-  .text5:hover,
-  .text6:hover,
-  .text7:hover,
-  .text8:hover {
+  .a:hover .text1,
+  .a:hover .text2,
+  .a:hover .text3,
+  .a:hover .text4,
+  .a:hover .text5,
+  .a:hover .text6,
+  .a:hover .text7,
+  .a:hover .text8 {
     animation-play-state: paused;
   }
   .span_contour {
@@ -265,12 +265,17 @@
     border-top: 1.2px solid #000;
   }
 
+  a:hover {
+    cursor: pointer;
+  }
+  
   /* section .a:last-child {
     border-bottom: 1.2px solid #000;
   } */
 
   .a:hover {
     background-color: #000;
+    cursor: pointer;
   }
 
   sup {
