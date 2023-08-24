@@ -42,6 +42,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100dvh;
+    -webkit-tap-highlight-color: transparent;
   }
   .main-content.menu-open {
     display: none;
