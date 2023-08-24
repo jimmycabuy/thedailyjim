@@ -268,7 +268,7 @@
   a:hover {
     cursor: pointer;
   }
-  
+
   /* section .a:last-child {
     border-bottom: 1.2px solid #000;
   } */
