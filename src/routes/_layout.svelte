@@ -45,6 +45,8 @@
     justify-content: space-between;
     min-height: 100dvh;
     -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    pointer-events: none;
   }
   .main-content.menu-open {
     display: none;
