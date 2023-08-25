@@ -1,172 +1,51 @@
+<script>
+  const socialItems = [
+    {
+      label: "INSTAGRAM",
+      url: "https://www.instagram.com/thedailyjim",
+      target: "_blank",
+    },
+    {
+      label: "FACEBOOK",
+      url: "https://urlgeni.us/facebook/the_dailyjim",
+      target: "_blank",
+    },
+    {
+      label: "TELEGRAM",
+      url: "https://t.me/jimmycabuy",
+      target: "_blank",
+    },
+    {
+      label: "WHATSAPP",
+      url: "https://wa.me/32474917815",
+      target: "_blank",
+    },
+    {
+      label: "TIKTOK",
+      url: "https://www.tiktok.com/@thedailyjim",
+      target: "_blank",
+    },
+    {
+      label: "MAIL",
+      url: "mailto:jimmycabuy@hotmail.com?subject=Hi Jimmy, I need your talents 📸🚀",
+      target: "_blank",
+    },
+  ];
+</script>
+
 <section>
-  <!-- <hr /> -->
-  <a
-    href="https://www.instagram.com/thedailyjim/"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <div class="scroll text1">
-      <p class="menu_item_socialmedia">
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-        INSTAGRAM <span>INSTAGRAM </span>INSTAGRAM <span>INSTAGRAM </span>
-      </p>
-    </div>
-  </a>
-  <!-- <hr /> -->
-  <a
-    href="https://urlgeni.us/facebook/the_dailyjim"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <div class="scroll text2">
-      <p class="menu_item_socialmedia">
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-        FACEBOOK <span>FACEBOOK </span>FACEBOOK <span>FACEBOOK </span>
-      </p>
-    </div>
-  </a>
-  <!-- <hr /> -->
-  <a href="https://t.me/jimmycabuy" target="_blank" rel="noreferrer">
-    <div class="scroll text4">
-      <p class="menu_item_socialmedia">
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-        TELEGRAM <span>TELEGRAM </span>TELEGRAM <span>TELEGRAM </span>
-      </p>
-    </div>
-  </a>
-  <!-- <hr /> -->
-  <a href="https://wa.me/32474917815" target="_blank" rel="noreferrer">
-    <div class="scroll text3">
-      <p class="menu_item_socialmedia">
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-        WHATSAPP <span>WHATSAPP </span>WHATSAPP <span>WHATSAPP </span>
-      </p>
-    </div>
-  </a>
-  <a
-    href="https://www.tiktok.com/@thedailyjim"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <div class="scroll text5">
-      <p class="menu_item_socialmedia">
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-        TIKTOK <span>TIKTOK </span>TIKTOK <span>TIKTOK </span>
-      </p>
-    </div>
-  </a>
-  <a
-    href="mailto:jimmycabuy@hotmail.com?subject=Hi Jimmy, I need your talents 📸🚀"
-  >
-    <div class="scroll text2">
-      <p class="menu_item_socialmedia">
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-        MAIL <span>MAIL </span>MAIL <span>MAIL </span>
-      </p>
-    </div>
-  </a>
+  {#each socialItems as item, i}
+    <a href={item.url} target={item.target} rel="noreferrer">
+      <div class="scroll text{i + 1}">
+        <p class="menu_item_socialmedia">
+          {#each Array(100) as _}
+            {item.label} <span>{item.label} </span>{item.label}
+            <span>{item.label} </span>
+          {/each}
+        </p>
+      </div>
+    </a>
+  {/each}
 </section>
 
 <style>
@@ -185,7 +64,7 @@
     background: #000;
     text-transform: uppercase;
     white-space: nowrap;
-    font-family: bd-supper,sans-serif;
+    font-family: bd-supper, sans-serif;
     font-weight: 700;
     font-style: normal;
   }
@@ -210,21 +89,18 @@
     animation: animate 35s linear infinite;
   }
 
+  .text6 {
+    animation: animate 45s linear infinite;
+  }
+
   .text1:hover,
   .text2:hover,
   .text3:hover,
   .text4:hover,
-  .text5:hover {
+  .text5:hover,
+  .text6:hover {
     animation-play-state: paused;
   }
-
-  /* hr {
-    height: 2px;
-    width: 100%px;
-    background-color: #000;
-    border: none;
-    margin: 0;
-  } */
 
   span {
     -webkit-text-stroke: 2px #fff;
@@ -233,6 +109,11 @@
 
   .menu_item_socialmedia {
     color: #fff;
+    border-top: 1px solid #fff;
+  }
+
+  section a:last-of-type div p:last-child {
+    border-bottom: 1px solid #fff;
   }
 
   a:hover div p {

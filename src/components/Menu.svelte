@@ -87,7 +87,7 @@
   {#each menuItem as item, i}
     <a href={item.url} on:click={() => dispatch("menudisplay")} class="div a">
       <div>
-        <div class={`div scroll text${i + 1}`}>
+        <div class="div scroll text{i + 1}">
           <p class="menu_item">
             {#each Array(100) as _}
               <span class="span_contour {!item.count ? 'no_count' : ''}"
