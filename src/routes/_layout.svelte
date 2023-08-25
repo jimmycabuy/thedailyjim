@@ -10,9 +10,7 @@
   };
 
   const removeMenuDisplay = () => {
-    setTimeout(() => {
-      menuToggle = false;
-    }, 200);
+    menuToggle = false;
   };
 </script>
 
