@@ -33,138 +33,78 @@
   for (let i = 0; i < shopgallery.length; i++) {
     countShop += 1;
   }
+
+  const menuItem = [
+    {
+      label: "USA",
+      url: "/usa",
+      count: countUsa,
+    },
+    {
+      label: "CANADA",
+      url: "/canada",
+      count: countCanada,
+    },
+    {
+      label: "MEXICO",
+      url: "/mexico",
+      count: countMexico,
+    },
+    {
+      label: "COSTA RICA",
+      url: "/costarica",
+      count: countCostaRica,
+    },
+    {
+      label: "ECUADOR",
+      url: "/ecuador",
+      count: countEcuador,
+    },
+    {
+      label: "EUROPE",
+      url: "/europe",
+      count: countEurope,
+    },
+    {
+      label: "ABOUT ME",
+      url: "/about",
+      count: null,
+    },
+    {
+      label: "SHOP",
+      url: "/shop",
+      count: countShop,
+    },
+    {
+      label: "CONTACT",
+      url: "/contact",
+      count: null,
+    },
+  ];
 </script>
 
 <section class="section">
-  <a href="/usa" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text1">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour">USA</span><sup>[{countUsa}]</sup><span
-              class="span_normal">USA</span
-            ><sup>[{countUsa}]</sup>
-          {/each}
-        </p>
+  {#each menuItem as item, i}
+    <a href={item.url} on:click={() => dispatch("menudisplay")} class="div a">
+      <div>
+        <div class={`div scroll text${i + 1}`}>
+          <p class="menu_item">
+            {#each Array(100) as _}
+              <span class="span_contour {!item.count ? 'no_count' : ''}"
+                >{item.label}</span
+              >{#if item.count}<sup>[{item.count}]</sup>{/if}<span
+                class={!item.count ? "no_count" : ""}>{item.label}</span
+              >{#if item.count}<sup>[{item.count}]</sup>{/if}
+            {/each}
+          </p>
+        </div>
       </div>
-    </div>
-  </a>
-
-  <a href="/canada" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text2">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour">CANADA</span><sup>[{countCanada}]</sup
-            ><span class="span_normal">CANADA</span><sup>[{countCanada}]</sup>
-          {/each}
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/mexico" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text3">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour">MEXICO</span><sup>[{countMexico}]</sup
-            ><span class="span_normal">MEXICO</span><sup>[{countMexico}]</sup>
-          {/each}
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/costarica" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text4">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour">COSTA RICA</span><sup
-              >[{countCostaRica}]</sup
-            ><span class="span_normal">COSTA RICA</span><sup
-              >[{countCostaRica}]</sup
-            >
-          {/each}
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/ecuador" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text7">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour">ECUADOR</span><sup>[{countEcuador}]</sup
-            ><span class="span_normal">ECUADOR</span><sup>[{countEcuador}]</sup>
-          {/each}
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/europe" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text2">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour">EUROPE</span><sup>[{countEurope}]</sup
-            ><span class="span_normal">EUROPE</span><sup>[{countEurope}]</sup>
-          {/each}
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/about" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text5">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour no_sup">ABOUT ME</span><span
-              class="span_normal no_sup">ABOUT ME</span
-            >
-          {/each}
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/shop" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text8">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour">SHOP</span><sup>[{countShop}]</sup><span
-              class="span_normal">SHOP</span
-            ><sup>[{countShop}]</sup>
-          {/each}
-        </p>
-      </div>
-    </div>
-  </a>
-
-  <a href="/contact" on:click={() => dispatch("menudisplay")} class="div a">
-    <div>
-      <div class="div scroll text6">
-        <p class="menu_item">
-          {#each Array(100) as _}
-            <span class="span_contour no_sup">CONTACT</span><span
-              class="span_normal no_sup">CONTACT</span
-            >
-          {/each}
-        </p>
-      </div>
-    </div>
-  </a>
+    </a>
+  {/each}
 </section>
 
 <style>
   .section {
-    /* position: absolute; */
-    /* z-index: 3; */
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -209,7 +149,6 @@
   }
   .text5 {
     animation: animate 20s linear infinite;
-    /* color: #fff; */
   }
   .text6 {
     animation: animate 45s linear infinite;
@@ -220,6 +159,9 @@
   .text8 {
     animation: animate 30s linear infinite;
   }
+  .text9 {
+    animation: animate 40s linear infinite;
+  }
 
   .a:hover .text1,
   .a:hover .text2,
@@ -228,21 +170,21 @@
   .a:hover .text5,
   .a:hover .text6,
   .a:hover .text7,
-  .a:hover .text8 {
+  .a:hover .text8,
+  .a:hover .text9 {
     animation-play-state: paused;
   }
   .span_contour {
     -webkit-text-stroke: 2px #000;
     color: transparent;
+  }
+
+  span {
     padding-left: 10px;
   }
 
-  .no_sup {
+  .no_count {
     padding-right: 10px;
-  }
-
-  .span_normal {
-    padding-left: 10px;
   }
 
   .a:hover .div {
@@ -268,11 +210,6 @@
   a:hover {
     cursor: pointer;
   }
-
-  /* section .a:last-child {
-    border-bottom: 1.2px solid #000;
-  } */
-
   .a:hover {
     background-color: #000;
     cursor: pointer;
@@ -316,7 +253,6 @@
     }
     .text5 {
       animation: animate 10s linear infinite;
-      /* color: #fff; */
     }
     .text6 {
       animation: animate 13s linear infinite;
@@ -326,6 +262,9 @@
     }
     .text8 {
       animation: animate 11s linear infinite;
+    }
+    .text9 {
+      animation: animate 21s linear infinite;
     }
   }
   /* smartphone landscape  */
