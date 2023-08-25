@@ -104,9 +104,6 @@
     font-style: normal;
   }
 
-  img {
-    pointer-events: none;
-  }
   .box_demand {
     display: flex;
     flex-direction: column;
