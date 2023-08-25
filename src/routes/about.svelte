@@ -117,6 +117,10 @@
     align-items: center;
     width: 140rem;
   }
+
+  img {
+    pointer-events: none;
+  }
   h3 {
     font-family: bd-supper, sans-serif;
     font-weight: 700;

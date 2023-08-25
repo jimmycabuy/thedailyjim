@@ -254,6 +254,7 @@
   img {
     max-height: 80vh;
     object-fit: contain;
+    pointer-events: none;
   }
   .container_text {
     display: flex;

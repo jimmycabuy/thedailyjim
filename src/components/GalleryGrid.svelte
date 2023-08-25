@@ -35,6 +35,10 @@
     cursor: pointer;
   }
 
+  img {
+    pointer-events: none;
+  }
+
   @media (width >= 768px) {
     section:hover {
       filter: brightness(50%);
