@@ -1,20 +1,15 @@
 <script>
   import Spinner from "./Spinner.svelte";
-  import { onMount, onDestroy } from "svelte";
-  import galleryStore from "../homegallery-store";
+  import { onMount } from "svelte";
+  import pictures from "../data/pictures.json";
 
-  let loadedPhotos = [];
-  let unsubscribe;
   let isLoading = true;
-  let allPhotosFromJson = [];
   let galleryForHome = [];
 
   onMount(async () => {
-    const res = await fetch("homegallerypic.json");
-    allPhotosFromJson = await res.json();
-    for (let i = 0; i < allPhotosFromJson.length; i++) {
-      if (allPhotosFromJson[i].folder === "h") {
-        galleryForHome = [...galleryForHome, allPhotosFromJson[i]];
+    for (let i = 0; i < pictures.length; i++) {
+      if (pictures[i].folder === "h") {
+        galleryForHome = [...galleryForHome, pictures[i]];
       }
     }
     galleryForHome.sort((a, b) => {
@@ -28,57 +23,53 @@
       }
       return 0;
     });
-    unsubscribe = galleryStore.subscribe((items) => {
-      loadedPhotos = items;
-    });
-    galleryStore.setHomeGalleryPics(galleryForHome);
-  });
-
-  onDestroy(() => {
-    if (unsubscribe) {
-      unsubscribe();
-    }
   });
 
   setTimeout(() => {
     isLoading = false;
-  }, 700);
+  }, 1500);
 </script>
 
 {#if isLoading}
   <Spinner />
-{:else}
-  <article class="homegallery">
-    {#each loadedPhotos as photo, i}
-      <section>
-        <div class="images">
-          <a href="/{photo.folder}/{photo.name}">
-            <img
-              src={`../../img/${photo.folder}/${photo.name}.webp`}
-              alt={photo.name}
-              width="100%"
-              height="100%"
-              loading="lazy"
-              preload
-            />
-          </a>
-        </div>
-      </section>
-    {/each}
-  </article>
 {/if}
 
+<article class="homegallery" class:is-loading={isLoading}>
+  {#each galleryForHome as photo, i}
+    <section>
+      <div class="images">
+        <a href="/{photo.folder}/{photo.name}">
+          <img
+            src={`../../assets/${photo.folder}/${photo.name}.webp`}
+            alt={photo.name}
+            width="100%"
+            height="100%"
+            loading="lazy"
+            preload
+          />
+        </a>
+      </div>
+    </section>
+  {/each}
+</article>
+
 <style>
+  .is-loading {
+    display: none;
+  }
+
   article {
     columns: 10;
     padding: 0 1rem 1rem 1rem;
   }
+
   section {
     margin-bottom: 2px;
     margin-right: -5px;
     margin-left: -5px;
     transition: 0.3s ease;
   }
+
   section:hover {
     cursor: pointer;
   }

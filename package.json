@@ -1,29 +1,18 @@
 {
-  "name": "thedailyjim",
-  "description": "Jimmy Cabuys alias thedailyjim | belgian photographer",
-  "version": "0.0.1",
-  "icon": "./static/favicon.ico",
-  "engines": {
-    "node": "v16.14.2"
-  },
-  "scripts": {
-    "dev": "sapper dev",
-    "build": "sapper build",
-    "export": "sapper export --entry \"/ /404\"",
-    "postexport": "mv __sapper__/export/404/index.html __sapper__/export/404.html",
-    "start": "node __sapper__/build"
-  },
-  "dependencies": {
-    "compression": "^1.7.1",
-    "polka": "next",
-    "sirv": "^1.0.0"
-  },
-  "devDependencies": {
-    "sapper": "^0.28.0",
-    "svelte": "^3.17.3",
-    "file-loader": "^6.0.0",
-    "svelte-loader": "^3.0.0",
-    "webpack": "^4.46.0",
-    "webpack-modules": "^1.0.0"
-  }
+	"name": "thedailyjim2.0",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module"
 }

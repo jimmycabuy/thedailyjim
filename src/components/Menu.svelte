@@ -3,8 +3,8 @@
 
   let dispatch = createEventDispatcher();
 
-  import homegallery from "../../static/homegallerypic.json";
-  import shopgallery from "../../static/shop.json";
+  import pictures from "../data/pictures.json";
+  import shopgallery from "../data/shop.json";
 
   let countUsa = 0;
   let countCanada = 0;
@@ -14,18 +14,18 @@
   let countEurope = 0;
   let countShop = 0;
 
-  for (let i = 0; i < homegallery.length; i++) {
-    if (homegallery[i].folder === "usa") {
+  for (let i = 0; i < pictures.length; i++) {
+    if (pictures[i].folder === "usa") {
       countUsa += 1;
-    } else if (homegallery[i].folder === "canada") {
+    } else if (pictures[i].folder === "canada") {
       countCanada += 1;
-    } else if (homegallery[i].folder === "mexico") {
+    } else if (pictures[i].folder === "mexico") {
       countMexico += 1;
-    } else if (homegallery[i].folder === "costarica") {
+    } else if (pictures[i].folder === "costarica") {
       countCostaRica += 1;
-    } else if (homegallery[i].folder === "ecuador") {
+    } else if (pictures[i].folder === "ecuador") {
       countEcuador += 1;
-    } else if (homegallery[i].folder === "europe") {
+    } else if (pictures[i].folder === "europe") {
       countEurope += 1;
     }
   }
@@ -85,7 +85,13 @@
 
 <section class="section">
   {#each menuItem as item, i}
-    <a href={item.url} on:click={() => dispatch("menudisplay")} class="div a">
+    <a
+      href={item.url}
+      class="div a"
+      data-sveltekit-preload-data
+      data-sveltekit-preload-code
+      data-sveltekit-reload
+    >
       <div>
         <div class="div scroll text{i + 1}">
           <p class="menu_item">
@@ -111,6 +117,9 @@
     flex-direction: column;
     justify-content: space-between;
     height: 90dvh;
+    font-family: "bd-supper", sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
   .section .scroll {
     width: 100%;
@@ -122,8 +131,6 @@
     background: #fff;
     text-transform: uppercase;
     white-space: nowrap;
-    font-family: bd-supper, sans-serif;
-    font-weight: 700;
     font-style: normal;
     height: 100%;
   }

@@ -53,6 +53,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 1rem;
   }
   section .scroll {
     width: 100%;
@@ -64,7 +65,7 @@
     background: #000;
     text-transform: uppercase;
     white-space: nowrap;
-    font-family: bd-supper, sans-serif;
+    font-family: "bd-supper", sans-serif;
     font-weight: 700;
     font-style: normal;
   }

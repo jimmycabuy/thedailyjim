@@ -1,5 +1,38 @@
-# thedailyjim
+# create-svelte
 
-During my free time, I have another name and a different passion alongside coding—meet "thedailyjim," the photographer in me. Ever since my early years, I have been captivated by the art of photography, constantly seeking opportunities to venture beyond the confines of my home and capture the essence of life and the beauty of the surrounding landscapes.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-I invite you to explore my photography portfolio at <a href="https://thedailyjim.be" target="_blank">thedailyjim.be</a>, where you can witness the moments I've frozen in time and immerse yourself in the visual stories I strive to tell through my lens.
+## Creating a project
+
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

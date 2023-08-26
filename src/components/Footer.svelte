@@ -51,12 +51,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "bd-supper", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   p {
     margin: 1rem;
-    font-family: bd-supper, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     text-align: justify;
   }
 

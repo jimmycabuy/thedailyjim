@@ -28,7 +28,7 @@
     background-color: #fff;
     height: 5dvh;
     align-items: center;
-    font-family: bd-supper, sans-serif;
+    font-family: "bd-supper", sans-serif;
     font-weight: 700;
     font-style: normal;
   }

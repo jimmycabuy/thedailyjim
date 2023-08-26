@@ -1,9 +1,0 @@
-{
-	"background_color": "#ffffff",
-	"theme_color": "#333333",
-	"name": "thedailyjim",
-	"short_name": "thedailyjim",
-	"icon": "./favicon.ico",
-	"display": "minimal-ui",
-	"start_url": "/"
-}

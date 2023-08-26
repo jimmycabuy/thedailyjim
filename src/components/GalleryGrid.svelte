@@ -8,7 +8,7 @@
       <div class="images">
         <a href="/{photo.folder}/{photo.name}">
           <img
-            src={`../../img/${photo.folder}/${photo.name}.webp`}
+            src={`../../assets/${photo.folder}/${photo.name}.webp`}
             alt={photo.name}
             width="100%"
             height="100%"
