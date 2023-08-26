@@ -6,29 +6,19 @@
 
   let folder = $page.params.folder;
   let picture = $page.params.photo;
-  let photoFromPage;
-
-  if (folder === "shop") {
-    photoFromPage = shop.find((item) => item.name === picture);
-  } else {
-    photoFromPage = pictures.find((item) => item.name === picture);
-  }
+  let photoFromPage = (folder === "shop" ? shop : pictures).find(
+    (item) => item.name === picture
+  );
 
   let carouselShopPhotos = [photoFromPage.name, photoFromPage.full_photo];
-
   let indexCarousel = 0;
 
-  const nextCarousel = () => {
-    indexCarousel = (indexCarousel + 1) % carouselShopPhotos.length;
-  };
-
-  const previousCarousel = () => {
-    if (indexCarousel === 0) {
-      indexCarousel = carouselShopPhotos.length - 1;
-    } else {
-      indexCarousel = (indexCarousel - 1) % carouselShopPhotos.length;
-    }
-  };
+  const nextCarousel = () =>
+    (indexCarousel = (indexCarousel + 1) % carouselShopPhotos.length);
+  const previousCarousel = () =>
+    (indexCarousel =
+      (indexCarousel - 1 + carouselShopPhotos.length) %
+      carouselShopPhotos.length);
 </script>
 
 <svelte:head>

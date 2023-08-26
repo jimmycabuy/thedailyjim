@@ -1,39 +1,27 @@
 <script>
   let date = new Date();
   let year = date.getFullYear();
-  let mounth = date.getMonth();
-  let fullmounth;
-
-  if (mounth === 0) {
-    fullmounth = "January";
-  } else if (mounth === 1) {
-    fullmounth = "February";
-  } else if (mounth === 2) {
-    fullmounth = "March";
-  } else if (mounth === 3) {
-    fullmounth = "April";
-  } else if (mounth === 4) {
-    fullmounth = "May";
-  } else if (mounth === 5) {
-    fullmounth = "June";
-  } else if (mounth === 6) {
-    fullmounth = "July";
-  } else if (mounth === 7) {
-    fullmounth = "August";
-  } else if (mounth === 8) {
-    fullmounth = "September";
-  } else if (mounth === 9) {
-    fullmounth = "October";
-  } else if (mounth === 10) {
-    fullmounth = "November";
-  } else if (mounth === 11) {
-    fullmounth = "December";
-  }
+  let month = date.getMonth();
+  let fullMonths = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  let fullMonth = fullMonths[month];
 </script>
 
 <div>
   <p class="footer_text">
-    © {fullmounth}
+    © {fullMonth}
     {year} by
     <a
       class="footer_text"

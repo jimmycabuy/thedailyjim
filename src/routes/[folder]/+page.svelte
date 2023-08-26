@@ -16,7 +16,7 @@
 
   setTimeout(() => {
     isLoading = false;
-  }, 1500);
+  }, 1000);
 </script>
 
 <svelte:head>
