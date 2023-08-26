@@ -6,23 +6,10 @@
   let isLoading = true;
   let galleryForHome = [];
 
-  onMount(async () => {
-    for (let i = 0; i < pictures.length; i++) {
-      if (pictures[i].folder === "h") {
-        galleryForHome = [...galleryForHome, pictures[i]];
-      }
-    }
-    galleryForHome.sort((a, b) => {
-      const nameA = a.name.toUpperCase();
-      const nameB = b.name.toUpperCase();
-      if (nameA > nameB) {
-        return -1;
-      }
-      if (nameA < nameB) {
-        return 1;
-      }
-      return 0;
-    });
+  onMount(() => {
+    galleryForHome = pictures
+      .filter((picture) => picture.folder === "h")
+      .sort((a, b) => b.name.localeCompare(a.name));
   });
 
   setTimeout(() => {
@@ -44,7 +31,6 @@
             alt={photo.name}
             width="100%"
             height="100%"
-            loading="lazy"
             preload
           />
         </a>

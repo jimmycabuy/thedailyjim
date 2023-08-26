@@ -3,7 +3,7 @@
 </script>
 
 <article>
-  {#each allPhotos as photo, i}
+  {#each allPhotos as photo}
     <section>
       <div class="images">
         <a href="/{photo.folder}/{photo.name}">
@@ -12,7 +12,6 @@
             alt={photo.name}
             width="100%"
             height="100%"
-            loading="lazy"
             preload
           />
         </a>

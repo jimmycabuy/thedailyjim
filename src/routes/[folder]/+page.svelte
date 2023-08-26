@@ -9,28 +9,14 @@
   let isLoading = true;
   let allPhotosFolder = [];
 
-  onMount(async () => {
-    for (let i = 0; i < pictures.length; i++) {
-      if (pictures[i].folder === folder) {
-        allPhotosFolder = [...allPhotosFolder, pictures[i]];
-      }
-    }
-    allPhotosFolder.sort((a, b) => {
-      const nameA = a.name.toUpperCase();
-      const nameB = b.name.toUpperCase();
-      if (nameA > nameB) {
-        return -1;
-      }
-      if (nameA < nameB) {
-        return 1;
-      }
-      return 0;
-    });
+  onMount(() => {
+    allPhotosFolder = pictures.filter((picture) => picture.folder === folder);
+    allPhotosFolder.sort((a, b) => b.name.localeCompare(a.name));
   });
 
   setTimeout(() => {
     isLoading = false;
-  }, 750);
+  }, 1500);
 </script>
 
 <svelte:head>

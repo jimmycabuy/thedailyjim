@@ -15,7 +15,7 @@
       });
       setTimeout(() => {
         isLoading = false;
-      }, 1000);
+      }, 1500);
       isMessageSent = true;
     });
   });

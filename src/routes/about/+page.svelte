@@ -5,7 +5,7 @@
 
   setTimeout(() => {
     isLoading = false;
-  }, 750);
+  }, 1500);
 </script>
 
 <svelte:head>
@@ -63,7 +63,8 @@
 
 {#if isLoading}
   <Spinner />
-{:else}
+{/if}
+<div class:isLoading>
   <div class="aboutme_block">
     <div class="pp_div">
       <img
@@ -99,9 +100,12 @@
     </div>
   </div>
   <SocialMedia />
-{/if}
+</div>
 
 <style>
+  .isLoading {
+    display: none;
+  }
   .aboutme_block {
     margin: 1rem 1rem 3rem 1rem;
     display: flex;

@@ -5,23 +5,13 @@
 
   let isLoading = true;
 
-  onMount(async () => {
-    shop.sort((a, b) => {
-      const nameA = a.price;
-      const nameB = b.price;
-      if (nameA < nameB) {
-        return -1;
-      }
-      if (nameA > nameB) {
-        return 1;
-      }
-      return 0;
-    });
+  onMount(() => {
+    shop.sort((a, b) => a.price - b.price);
   });
 
   setTimeout(() => {
     isLoading = false;
-  }, 750);
+  }, 1500);
 </script>
 
 <svelte:head>
@@ -30,7 +20,9 @@
 
 {#if isLoading}
   <Spinner />
-{:else}
+{/if}
+
+<div class:isLoading>
   <p class="paragraph_shop">
     Please note that the photos displayed in the shop below are the printed and
     framed photos currently in stock.
@@ -48,7 +40,6 @@
             alt={photo.name}
             width="100%"
             height="100%"
-            loading="lazy"
             preload
           />
           <div class="box_name_price">
@@ -78,9 +69,12 @@
       >WhatsApp
     </a>
   </div>
-{/if}
+</div>
 
 <style>
+  .isLoading {
+    display: none;
+  }
   .auto-grid {
     --auto-grid-min-size: 21rem;
     font-family: "bd-supper", sans-serif;
