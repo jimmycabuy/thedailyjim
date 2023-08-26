@@ -35,35 +35,17 @@
   <title>thedailyjim | {picture}</title>
 </svelte:head>
 
-{#if folder === "h"}
-  <div>
-    <a href="/" class="go_back">
-      <img
-        src="../../../assets/asset/previous.png"
-        alt="previous"
-        class="arrow_back"
-        preload
-      />
-      HOME
-    </a>
-  </div>
-{:else}
-  <div>
-    <a href="/{folder}" class="go_back">
-      <img
-        src="../../../assets/asset/previous.png"
-        alt="previous"
-        class="arrow_back"
-        preload
-      />
-      {#if folder === "costarica"}
-        COSTA RICA
-      {:else}
-        {folder.toUpperCase()}
-      {/if}
-    </a>
-  </div>
-{/if}
+<div>
+  <a href={folder === "home" ? "/" : "/" + folder} class="go_back">
+    <img
+      src="../../../assets/asset/previous.png"
+      alt="previous"
+      class="arrow_back"
+      preload
+    />
+    {folder.toUpperCase()}
+  </a>
+</div>
 
 {#if !photoFromPage.full_photo}
   <div class="block_image" in:blur>

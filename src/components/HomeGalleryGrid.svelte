@@ -8,7 +8,7 @@
 
   onMount(() => {
     galleryForHome = pictures
-      .filter((picture) => picture.folder === "h")
+      .filter((picture) => picture.folder === "home")
       .sort((a, b) => b.name.localeCompare(a.name));
   });
 
