@@ -1,69 +1,54 @@
 <script>
-  import { createEventDispatcher } from "svelte";
-
-  let dispatch = createEventDispatcher();
-
   import pictures from "../data/pictures.json";
-  import shopgallery from "../data/shop.json";
+  import shop from "../data/shop.json";
 
-  let countUsa = 0;
-  let countCanada = 0;
-  let countMexico = 0;
-  let countCostaRica = 0;
-  let countEcuador = 0;
-  let countEurope = 0;
-  let countShop = 0;
+  const counts = {
+    usa: 0,
+    canada: 0,
+    mexico: 0,
+    costarica: 0,
+    ecuador: 0,
+    europe: 0,
+  };
 
-  for (let i = 0; i < pictures.length; i++) {
-    if (pictures[i].folder === "usa") {
-      countUsa += 1;
-    } else if (pictures[i].folder === "canada") {
-      countCanada += 1;
-    } else if (pictures[i].folder === "mexico") {
-      countMexico += 1;
-    } else if (pictures[i].folder === "costarica") {
-      countCostaRica += 1;
-    } else if (pictures[i].folder === "ecuador") {
-      countEcuador += 1;
-    } else if (pictures[i].folder === "europe") {
-      countEurope += 1;
+  pictures.forEach((picture) => {
+    if (counts.hasOwnProperty(picture.folder)) {
+      counts[picture.folder]++;
     }
-  }
+  });
 
-  for (let i = 0; i < shopgallery.length; i++) {
-    countShop += 1;
-  }
+  const countShop = shop.length;
 
   const menuItem = [
     {
       label: "USA",
       url: "/usa",
-      count: countUsa,
+      count: counts.usa,
     },
     {
       label: "CANADA",
       url: "/canada",
-      count: countCanada,
+      count: counts.canada,
     },
     {
       label: "MEXICO",
       url: "/mexico",
-      count: countMexico,
+      count: counts.mexico,
     },
     {
       label: "COSTA RICA",
       url: "/costarica",
-      count: countCostaRica,
+      count: counts.costarica,
     },
     {
       label: "ECUADOR",
       url: "/ecuador",
-      count: countEcuador,
+      count: counts.ecuador,
     },
     {
       label: "EUROPE",
       url: "/europe",
-      count: countEurope,
+      count: counts.europe,
     },
     {
       label: "ABOUT ME",

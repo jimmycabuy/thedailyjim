@@ -19,8 +19,9 @@
     .jim_description {
       color: #fff;
     }
-    .lds-ripple div {
-      border: 4px solid #fff !important;
+    .loader {
+      border-top: 3px solid #fff !important;
+      border-right: 3px solid #000 !important;
     }
     .navbar {
       background-color: #000 !important;
