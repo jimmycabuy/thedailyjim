@@ -4,12 +4,17 @@
 
 <div>
   <a href={folder === "home" ? "/" : "/" + folder} class="go_back">
-    <img
-      src="../../../assets/asset/previous.png"
-      alt="previous"
-      class="arrow_back"
-      preload
-    />
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 256 275"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill="#000000"
+        d="M228 128a12 12 0 0 1-12 12H69l51.52 51.51a12 12 0 0 1-17 17l-72-72a12 12 0 0 1 0-17l72-72a12 12 0 0 1 17 17L69 116h147a12 12 0 0 1 12 12Z"
+      />
+    </svg>
     {folder.toUpperCase()}
   </a>
 </div>
@@ -20,16 +25,10 @@
     font-weight: 400;
     font-style: normal;
     display: flex;
-    align-items: center;
-    margin-left: -5px;
     width: fit-content;
     margin-bottom: 1rem;
     margin-top: 1rem;
     padding-left: 1rem;
-  }
-  .arrow_back {
-    height: 20px;
-    width: 20px;
-    padding-bottom: 3px;
+    gap: 0.3rem;
   }
 </style>

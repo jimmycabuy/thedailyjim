@@ -9,12 +9,17 @@
 <div class="block_carousel">
   <div class="block_image_carousel">
     <button on:click={() => dispatch("previousCarrousel")} class="btn_carrou">
-      <img
-        class="arrow"
-        src="../../../assets/asset/previous.png"
-        alt="previous"
-        preload
-      />
+      <svg
+        width="25"
+        height="25"
+        viewBox="0 0 256 256"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#000000"
+          d="M228 128a12 12 0 0 1-12 12H69l51.52 51.51a12 12 0 0 1-17 17l-72-72a12 12 0 0 1 0-17l72-72a12 12 0 0 1 17 17L69 116h147a12 12 0 0 1 12 12Z"
+        />
+      </svg>
     </button>
     {#each [carouselShopPhotos[indexCarousel]] as photo}
       <div class="block_image">
@@ -27,12 +32,17 @@
       </div>
     {/each}
     <button on:click={() => dispatch("nextCarrousel")} class="btn_carrou">
-      <img
-        class="arrow"
-        src="../../../assets/asset/next.png"
-        alt="next"
-        preload
-      />
+      <svg
+        width="25"
+        height="25"
+        viewBox="0 0 256 256"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#000000"
+          d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01Z"
+        />
+      </svg>
     </button>
   </div>
 </div>
@@ -44,8 +54,8 @@
     pointer-events: none;
   }
   .block_carousel {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
   .block_image_carousel {
     display: flex;
@@ -54,17 +64,8 @@
     max-width: 100%;
   }
   .btn_carrou {
-    height: 30px;
-    width: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
     background: none;
-  }
-  .arrow {
-    height: 30px;
-    width: 30px;
   }
   .btn_carrou:hover {
     cursor: pointer;
