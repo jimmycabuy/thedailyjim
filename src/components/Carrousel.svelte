@@ -43,4 +43,21 @@
     pointer-events: none;
     max-width: 80vw;
   }
+
+  :global(.sc-carousel__arrow-container) {
+    margin: 1rem;
+  }
+
+  :global(.sc-carousel__arrow-container button) {
+    background-color: white !important;
+  }
+
+  :global(.sc-carousel__arrow-container button:focus) {
+    outline: none;
+  }
+
+  :global(li::before){
+    font-size: 170%;
+    background-color: red;
+  }
 </style>
