@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"embla-carousel-autoplay": "^8.0.0-rc12",
 		"embla-carousel-svelte": "^8.0.0-rc12"
 	}
 }

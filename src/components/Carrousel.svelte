@@ -1,12 +1,14 @@
 <script>
   import emblaCarouselSvelte from "embla-carousel-svelte";
+  import Autoplay from 'embla-carousel-autoplay'
 
   export let carouselShopPhotos, folder;
 
   let options = { loop: true };
+  let plugins = [Autoplay()]
 </script>
 
-<div class="embla" use:emblaCarouselSvelte={{ options }}>
+<div class="embla" use:emblaCarouselSvelte={{ options, plugins }}>
   <div class="embla__container">
     {#each carouselShopPhotos as photo}
       <div class="embla__slide">
