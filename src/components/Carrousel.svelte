@@ -43,9 +43,10 @@
     pointer-events: none;
     max-width: 80vw;
   }
-
-  :global(.sc-carousel__arrow-container) {
-    margin: 1rem;
+  @media (width >= 768px) {
+    :global(.sc-carousel__arrow-container) {
+      margin: 1rem;
+    }
   }
 
   :global(.sc-carousel__arrow-container button) {
@@ -56,7 +57,7 @@
     outline: none;
   }
 
-  :global(li::before){
+  :global(li::before) {
     font-size: 170%;
     background-color: red;
   }
