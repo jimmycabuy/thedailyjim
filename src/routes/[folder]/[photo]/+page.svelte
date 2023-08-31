@@ -33,13 +33,7 @@
 {#if !photoFromPage.full_photo}
   <Photo {folder} {picture} />
 {:else}
-  <Carrousel
-    on:nextCarrousel={nextCarousel}
-    on:previousCarrousel={previousCarousel}
-    {indexCarousel}
-    {folder}
-    {carouselShopPhotos}
-  />
+  <Carrousel {folder} {carouselShopPhotos} />
 {/if}
 
 <PhotoText {photoFromPage} />
