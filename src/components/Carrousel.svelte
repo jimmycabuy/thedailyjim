@@ -62,6 +62,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
+    gap: 0.5rem;
   }
   .btn_carrou {
     border: none;
