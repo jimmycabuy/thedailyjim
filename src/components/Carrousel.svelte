@@ -1,17 +1,22 @@
 <script>
-  import emblaCarouselSvelte from "embla-carousel-svelte";
-  import Autoplay from 'embla-carousel-autoplay'
+  import Carousel from "svelte-carousel";
+  import { browser } from "$app/environment";
 
-  export let carouselShopPhotos, folder;
-
-  let options = { loop: true };
-  let plugins = [Autoplay()]
+  let carousel;
+  export let carouselShopPhotos;
+  export let folder;
 </script>
 
-<div class="embla" use:emblaCarouselSvelte={{ options, plugins }}>
-  <div class="embla__container">
+{#if browser}
+  <Carousel
+    bind:this={carousel}
+    autoplay
+    autoplayDuration={10000}
+    pauseOnFocus
+    swiping={true}
+  >
     {#each carouselShopPhotos as photo}
-      <div class="embla__slide">
+      <div class="image_carrousel_container">
         <img
           class="image_carousel"
           src={`../../../assets/${folder}/${photo}.webp`}
@@ -20,49 +25,22 @@
         />
       </div>
     {/each}
-  </div>
-</div>
+  </Carousel>
+{/if}
 
 <style>
-  .embla {
-    overflow: hidden;
-  }
-  .embla__container {
-    display: flex;
-  }
-  .embla__slide {
+  .image_carrousel_container {
     flex: 0 0 100%;
     min-width: 0;
     display: flex;
     justify-content: center;
+    max-height: 70vh;
+    margin: 1rem 0;
   }
 
   img {
-    max-height: 80vh;
     object-fit: contain;
     pointer-events: none;
-  }
-
-  @media (max-width: 767px) {
-    .image_carousel {
-      max-width: 80vw;
-      max-height: 80vh;
-      object-fit: contain;
-    }
-  }
-  @media (min-width: 767px) and (max-width: 1023px) {
-    .image_carousel {
-      max-width: 80vw;
-      max-height: 80vh;
-      object-fit: contain;
-    }
-  }
-  /* tablet portrait  */
-  @media (min-width: 767px) and (max-width: 1023px) and (orientation: portrait) {
-    .image_carousel {
-      width: 90vw;
-      max-height: 70vh;
-      object-fit: contain;
-    }
+    max-width: 80vw;
   }
 </style>
