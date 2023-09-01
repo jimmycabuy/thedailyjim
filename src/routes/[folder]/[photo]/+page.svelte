@@ -14,14 +14,6 @@
   );
 
   let carouselShopPhotos = [photoFromPage.name, photoFromPage.full_photo];
-  let indexCarousel = 0;
-
-  const nextCarousel = () =>
-    (indexCarousel = (indexCarousel + 1) % carouselShopPhotos.length);
-  const previousCarousel = () =>
-    (indexCarousel =
-      (indexCarousel - 1 + carouselShopPhotos.length) %
-      carouselShopPhotos.length);
 </script>
 
 <svelte:head>

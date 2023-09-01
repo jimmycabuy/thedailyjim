@@ -1,41 +1,10 @@
 <script>
-  const socialItems = [
-    {
-      label: "INSTAGRAM",
-      url: "https://www.instagram.com/thedailyjim",
-      target: "_blank",
-    },
-    {
-      label: "FACEBOOK",
-      url: "https://urlgeni.us/facebook/the_dailyjim",
-      target: "_blank",
-    },
-    {
-      label: "TELEGRAM",
-      url: "https://t.me/jimmycabuy",
-      target: "_blank",
-    },
-    {
-      label: "WHATSAPP",
-      url: "https://wa.me/32474917815",
-      target: "_blank",
-    },
-    {
-      label: "TIKTOK",
-      url: "https://www.tiktok.com/@thedailyjim",
-      target: "_blank",
-    },
-    {
-      label: "MAIL",
-      url: "mailto:jimmycabuy@hotmail.com?subject=Hi Jimmy, I need your talents 📸🚀",
-      target: "_blank",
-    },
-  ];
+   import socialmedia from "../data/socialmedia.json";
 </script>
 
 <section>
-  {#each socialItems as item, i}
-    <a href={item.url} target={item.target} rel="noreferrer">
+  {#each socialmedia as item, i}
+    <a href={item.url} target={item.target} rel={item.rel}>
       <div class="scroll text{i + 1}">
         <p class="menu_item_socialmedia">
           {#each Array(100) as _}
