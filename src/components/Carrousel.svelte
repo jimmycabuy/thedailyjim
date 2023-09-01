@@ -41,11 +41,23 @@
   img {
     object-fit: contain;
     pointer-events: none;
-    max-width: 80vw;
+    max-width: 100%;
+    width: 100%;
   }
-  @media (width >= 768px) {
-    :global(.sc-carousel__arrow-container) {
-      margin: 1rem;
+  @media (width >= 1030px) {
+    :global(
+        .sc-carousel__content-container
+          .sc-carousel__arrow-container:first-child
+      ) {
+      margin-left: 7rem;
+      padding: 0;
+    }
+
+    :global(
+        .sc-carousel__content-container .sc-carousel__arrow-container:last-child
+      ) {
+      margin-right: 7rem;
+      padding: 0;
     }
   }
 

@@ -2,7 +2,7 @@
   let date = new Date();
   let year = date.getFullYear();
   let month = date.getMonth();
-  let fullMonths = [
+  let allMonths = [
     "January",
     "February",
     "March",
@@ -16,7 +16,7 @@
     "November",
     "December",
   ];
-  let fullMonth = fullMonths[month];
+  let fullMonth = allMonths[month];
 </script>
 
 <div>
