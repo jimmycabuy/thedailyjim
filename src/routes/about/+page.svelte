@@ -46,18 +46,20 @@
       background-color: #000 !important;
       border-top: 1.2px solid #fff !important;
     }
-    .a:hover .div {
-      background-color: #fff !important;
-    }
-    .a:hover .div p {
-      background-color: #fff !important;
-      color: #000 !important;
-    }
-    .a:hover .div p .span_contour {
-      -webkit-text-stroke: 2px #000 !important;
-    }
-    .a:hover {
-      background-color: #fff !important;
+    @media (pointer: fine) {
+      .a:hover .div {
+        background-color: #fff !important;
+      }
+      .a:hover .div p {
+        background-color: #fff !important;
+        color: #000 !important;
+      }
+      .a:hover .div p .span_contour {
+        -webkit-text-stroke: 2px #000 !important;
+      }
+      .a:hover {
+        background-color: #fff !important;
+      }
     }
   </style>
 </svelte:head>

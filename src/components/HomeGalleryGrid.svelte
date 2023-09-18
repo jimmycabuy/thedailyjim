@@ -60,7 +60,7 @@
     cursor: pointer;
   }
 
-  @media (width >= 768px) {
+  @media (pointer: fine) {
     section:hover {
       filter: brightness(50%);
     }

@@ -1,5 +1,5 @@
 <script>
-   import socialmedia from "../data/socialmedia.json";
+  import socialmedia from "../data/socialmedia.json";
 </script>
 
 <section>
@@ -63,15 +63,23 @@
     animation: animate 45s linear infinite;
   }
 
-  .text1:hover,
-  .text2:hover,
-  .text3:hover,
-  .text4:hover,
-  .text5:hover,
-  .text6:hover {
-    animation-play-state: paused;
+  @media (pointer: fine) {
+    .text1:hover,
+    .text2:hover,
+    .text3:hover,
+    .text4:hover,
+    .text5:hover,
+    .text6:hover {
+      animation-play-state: paused;
+    }
+    a:hover div p {
+      background-color: #fff;
+      color: #000;
+    }
+    a:hover div p span {
+      -webkit-text-stroke: 2px #000;
+    }
   }
-
   span {
     -webkit-text-stroke: 2px #fff;
     color: transparent;
@@ -84,14 +92,6 @@
 
   section a:last-of-type div p:last-child {
     border-bottom: 1px solid #fff;
-  }
-
-  a:hover div p {
-    background-color: #fff;
-    color: #000;
-  }
-  a:hover div p span {
-    -webkit-text-stroke: 2px #000;
   }
 
   @keyframes animate {

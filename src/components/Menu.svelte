@@ -155,17 +155,38 @@
     animation: animate 40s linear infinite;
   }
 
-  .a:hover .text1,
-  .a:hover .text2,
-  .a:hover .text3,
-  .a:hover .text4,
-  .a:hover .text5,
-  .a:hover .text6,
-  .a:hover .text7,
-  .a:hover .text8,
-  .a:hover .text9 {
-    animation-play-state: paused;
+  @media (pointer: fine) {
+    .a:hover .text1,
+    .a:hover .text2,
+    .a:hover .text3,
+    .a:hover .text4,
+    .a:hover .text5,
+    .a:hover .text6,
+    .a:hover .text7,
+    .a:hover .text8,
+    .a:hover .text9 {
+      animation-play-state: paused;
+    }
+    .a:hover .div {
+      background-color: #000;
+    }
+
+    .a:hover .div p {
+      background-color: #000;
+      color: #fff;
+    }
+    .a:hover .div p .span_contour {
+      -webkit-text-stroke: 2px #fff;
+    }
+    a:hover {
+      cursor: pointer;
+    }
+    .a:hover {
+      background-color: #000;
+      cursor: pointer;
+    }
   }
+
   .span_contour {
     -webkit-text-stroke: 2px #000;
     color: transparent;
@@ -179,32 +200,12 @@
     padding-right: 10px;
   }
 
-  .a:hover .div {
-    background-color: #000;
-  }
-
-  .a:hover .div p {
-    background-color: #000;
-    color: #fff;
-  }
-  .a:hover .div p .span_contour {
-    -webkit-text-stroke: 2px #fff;
-  }
-
   .a {
     display: flex;
     background-color: #fff;
     flex-direction: column;
     justify-content: center;
     border-top: 1.2px solid #000;
-  }
-
-  a:hover {
-    cursor: pointer;
-  }
-  .a:hover {
-    background-color: #000;
-    cursor: pointer;
   }
 
   sup {
