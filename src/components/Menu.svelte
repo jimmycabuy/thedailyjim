@@ -2,12 +2,29 @@
   import pictures from "../data/pictures.json";
   import shop from "../data/shop.json";
 
+  let screenWidth = window.innerWidth;
+  let minDuration;
+  let maxDuration;
+
+  const handleResize = () => {
+    screenWidth = window.innerWidth;
+  };
+
+  $: if (screenWidth <= 768) {
+    minDuration = 10;
+    maxDuration = 25;
+  } else {
+    minDuration = 20;
+    maxDuration = 60;
+  }
+
   const counts = {
     usa: 0,
     canada: 0,
     mexico: 0,
     costarica: 0,
     ecuador: 0,
+    morocco:0,
     europe: 0,
   };
 
@@ -46,6 +63,11 @@
       count: counts.ecuador,
     },
     {
+      label: "MOROCCO",
+      url: "/morocco",
+      count: counts.morocco,
+    },
+    {
       label: "EUROPE",
       url: "/europe",
       count: counts.europe,
@@ -68,6 +90,8 @@
   ];
 </script>
 
+<svelte:window on:resize={handleResize} />
+
 <section class="section">
   {#each menuItem as item, i}
     <a
@@ -78,7 +102,12 @@
       data-sveltekit-reload
     >
       <div>
-        <div class="div scroll text{i + 1}">
+        <div
+          class="div scroll text"
+          style="animation-duration: {Math.floor(
+            Math.random() * (maxDuration - minDuration + 1)
+          ) + minDuration}s;"
+        >
           <p class="menu_item">
             {#each Array(100) as _}
               <span class="span_contour {!item.count ? 'no_count' : ''}"
@@ -124,47 +153,11 @@
     background-color: #fff;
   }
 
-  .text1 {
-    animation: animate 55s linear infinite;
+  .text {
+    animation: animate linear infinite;
   }
-
-  .text2 {
-    animation: animate 30s linear infinite;
-  }
-
-  .text3 {
-    animation: animate 22s linear infinite;
-  }
-
-  .text4 {
-    animation: animate 35s linear infinite;
-  }
-  .text5 {
-    animation: animate 20s linear infinite;
-  }
-  .text6 {
-    animation: animate 45s linear infinite;
-  }
-  .text7 {
-    animation: animate 24s linear infinite;
-  }
-  .text8 {
-    animation: animate 30s linear infinite;
-  }
-  .text9 {
-    animation: animate 40s linear infinite;
-  }
-
   @media (pointer: fine) {
-    .a:hover .text1,
-    .a:hover .text2,
-    .a:hover .text3,
-    .a:hover .text4,
-    .a:hover .text5,
-    .a:hover .text6,
-    .a:hover .text7,
-    .a:hover .text8,
-    .a:hover .text9 {
+    .a:hover .text {
       animation-play-state: paused;
     }
     .a:hover .div {
@@ -228,36 +221,6 @@
   @media (max-width: 767px) and (orientation: portrait) {
     .div {
       font-size: 3.1rem;
-    }
-    .text1 {
-      animation: animate 25s linear infinite;
-    }
-
-    .text2 {
-      animation: animate 10s linear infinite;
-    }
-
-    .text3 {
-      animation: animate 12s linear infinite;
-    }
-
-    .text4 {
-      animation: animate 15s linear infinite;
-    }
-    .text5 {
-      animation: animate 10s linear infinite;
-    }
-    .text6 {
-      animation: animate 13s linear infinite;
-    }
-    .text7 {
-      animation: animate 18s linear infinite;
-    }
-    .text8 {
-      animation: animate 11s linear infinite;
-    }
-    .text9 {
-      animation: animate 21s linear infinite;
     }
   }
   /* smartphone landscape  */
