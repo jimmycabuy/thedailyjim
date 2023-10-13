@@ -11,9 +11,8 @@
     uniquePictures.add(pictures[randomIndex]);
   }
 
-  const randomObjects = Array.from(uniquePictures);
+  const randomPictures = Array.from(uniquePictures);
 
-  console.log(randomObjects.length);
   setTimeout(() => {
     isLoading = false;
   }, 1500);
@@ -24,7 +23,7 @@
 {/if}
 
 <article class="homegallery" class:is-loading={isLoading}>
-  {#each randomObjects as photo, i}
+  {#each randomPictures as photo, i}
     <section>
       <div class="images">
         <img
