@@ -1,7 +1,7 @@
 [
   {
     "name": "Palm_4",
-    "full_photo": "Palm_4_full",
+    "carrousel": ["Palm_4", "Palm_4_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,
@@ -14,7 +14,7 @@
   },
   {
     "name": "Palm_5",
-    "full_photo": "Palm_5_full",
+    "carrousel": ["Palm_5", "Palm_5_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,
@@ -27,7 +27,7 @@
   },
   {
     "name": "Palm_6",
-    "full_photo": "Palm_6_full",
+    "carrousel": ["Palm_6", "Palm_6_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,
@@ -40,7 +40,7 @@
   },
   {
     "name": "Luna_2",
-    "full_photo": "Luna_2_full",
+    "carrousel": ["Luna_2", "Luna_2_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,
@@ -53,7 +53,7 @@
   },
   {
     "name": "Luna_5",
-    "full_photo": "Luna_5_full",
+    "carrousel": ["Luna_5", "Luna_5_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,
@@ -66,7 +66,7 @@
   },
   {
     "name": "Luna_6",
-    "full_photo": "Luna_6_full",
+    "carrousel": ["Luna_6", "Luna_6_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,
@@ -79,7 +79,13 @@
   },
   {
     "name": "Evasion_1",
-    "full_photo": "Evasion_1_full",
+    "carrousel": [
+      "Evasion_1",
+      "Evasion_1_detail_1",
+      "Evasion_1_detail_2",
+      "Evasion_1_detail_3",
+      "Evasion_1_full"
+    ],
     "folder": "shop",
     "price": 345,
     "oldprice": 690,
@@ -92,7 +98,7 @@
   },
   {
     "name": "Evasion_3",
-    "full_photo": "Evasion_3_full",
+    "carrousel": ["Evasion_3", "Evasion_3_full"],
     "folder": "shop",
     "price": 345,
     "oldprice": 690,
@@ -105,7 +111,7 @@
   },
   {
     "name": "Evasion_4",
-    "full_photo": "Evasion_4_full",
+    "carrousel": ["Evasion_4", "Evasion_4_full"],
     "folder": "shop",
     "price": 345,
     "oldprice": 690,
@@ -118,7 +124,7 @@
   },
   {
     "name": "Eclipse_1",
-    "full_photo": "Eclipse_1_full",
+    "carrousel": ["Eclipse_1", "Eclipse_1_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,
@@ -131,7 +137,7 @@
   },
   {
     "name": "Eclipse_2",
-    "full_photo": "Eclipse_2_full",
+    "carrousel": ["Eclipse_2", "Eclipse_2_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,
@@ -144,7 +150,7 @@
   },
   {
     "name": "Eclipse_3",
-    "full_photo": "Eclipse_3_full",
+    "carrousel": ["Eclipse_3", "Eclipse_3_full"],
     "folder": "shop",
     "price": 195,
     "oldprice": 390,

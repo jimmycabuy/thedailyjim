@@ -13,7 +13,7 @@
     (item) => item.name === picture
   );
 
-  let carouselShopPhotos = [photoFromPage.name, photoFromPage.full_photo];
+
 </script>
 
 <svelte:head>
@@ -22,10 +22,10 @@
 
 <NavigationBack {folder} />
 
-{#if !photoFromPage.full_photo}
+{#if !photoFromPage.carrousel}
   <Photo {folder} {picture} />
 {:else}
-  <Carrousel {folder} {carouselShopPhotos} />
+  <Carrousel {folder} carouselShopPhotos={photoFromPage.carrousel} />
 {/if}
 
 <PhotoText {photoFromPage} />
