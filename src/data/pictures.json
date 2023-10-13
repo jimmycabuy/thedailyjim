@@ -1095,597 +1095,201 @@
     "place": "Vancouver, British Columbia"
   },
   {
-    "name": "4-palms-birds",
-    "folder": "home",
-    "place": "Santa Cruz, California"
-  },
-  {
-    "name": "66-dinner",
-    "folder": "home",
-    "place": "Route 66, Arizona"
-  },
-  {
-    "name": "a-golden-sf",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "abscract",
-    "folder": "home",
-    "place": "Santa Monica, California"
-  },
-  {
-    "name": "antelope",
-    "folder": "home",
-    "place": "Antelope Canyon, Arizona"
-  },
-  {
-    "name": "architecture-sf",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "beach-golden",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "beach-luna-park",
-    "folder": "home",
-    "place": "Santa Monica, California"
-  },
-  {
-    "name": "beach-night",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "big-canyon",
-    "folder": "home",
-    "place": "Grand Canyon, Arizona"
-  },
-  {
-    "name": "big-sur",
-    "folder": "home",
-    "place": "Big Sur, California"
-  },
-  {
-    "name": "blur-girl-sf",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "bryce",
-    "folder": "home",
-    "place": "Bryce Canyon, Utah"
-  },
-  {
-    "name": "cabines-luna-park",
-    "folder": "home",
-    "place": "Santa Cruz, California"
-  },
-  {
-    "name": "cactus",
-    "folder": "home",
-    "place": "Joshua Tree National Park, California"
-  },
-  {
-    "name": "coca-cola",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "cups",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "dance-roller",
-    "folder": "home",
-    "place": "Venice Beach, California"
-  },
-  {
-    "name": "death-valley",
-    "folder": "home",
-    "place": "Death Valley, California"
-  },
-  {
-    "name": "donkeys-van",
-    "folder": "home",
-    "place": "Route 66, Arizona"
-  },
-  {
-    "name": "donkeys",
-    "folder": "home",
-    "place": "Route 66, Arizona"
-  },
-  {
-    "name": "dune",
-    "folder": "home",
-    "place": "Coral Pink Sand Dunes, Utah"
-  },
-  {
-    "name": "falafel",
-    "folder": "home",
-    "place": "Santa Cruz, California"
-  },
-  {
-    "name": "firesky",
-    "folder": "home",
-    "place": "Mojave Desert, California"
-  },
-  {
-    "name": "girl-shadow",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "golden-bike",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "golden-dune",
-    "folder": "home",
-    "place": "Coral Pink Sand Dunes, Utah"
-  },
-  {
-    "name": "golden-gate",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "grand-canyon",
-    "folder": "home",
-    "place": "Grand Canyon, Arizona"
-  },
-  {
-    "name": "helicopter",
-    "folder": "home",
-    "place": "Grand Canyon, Arizona"
-  },
-  {
-    "name": "hockey",
-    "folder": "home",
-    "place": "Santa Monica, California"
-  },
-  {
-    "name": "hotel-palm",
-    "folder": "home",
-    "place": "Palm Spring, California"
-  },
-  {
-    "name": "joshua-cactus",
-    "folder": "home",
-    "place": "Joshua Tree National Park, California"
-  },
-  {
-    "name": "joshua-road",
-    "folder": "home",
-    "place": "Joshua Tree National Park, California"
-  },
-  {
-    "name": "lamp-shadow",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "moon-dune",
-    "folder": "home",
-    "place": "Coral Pink Sand Dunes, Utah"
-  },
-  {
-    "name": "moon-luna",
-    "folder": "home",
-    "place": "Santa Monica, California"
-  },
-  {
-    "name": "moonlight",
-    "folder": "home",
-    "place": "Mojave Desert, California"
-  },
-  {
-    "name": "motel-66",
-    "folder": "home",
-    "place": "Seligman, Route 66, California"
-  },
-  {
-    "name": "mountain-moon",
-    "folder": "home",
-    "place": "Mojave Desert, California"
-  },
-  {
-    "name": "night-beach",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "night-mojave",
-    "folder": "home",
-    "place": "Mojave Desert, California"
-  },
-  {
-    "name": "orange-archi",
-    "folder": "home",
-    "place": "Palm Spring, California"
-  },
-  {
-    "name": "orange-umbrella",
-    "folder": "home",
-    "place": "Palm Spring, California"
-  },
-  {
-    "name": "park-van",
-    "folder": "home",
-    "place": "Joshua Tree National Park, California"
-  },
-  {
-    "name": "powell",
-    "folder": "home",
-    "place": "Lake Powell, Arizona"
-  },
-  {
-    "name": "pyramide-sf",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "roller-couple",
-    "folder": "home",
-    "place": "Venice Beach, California"
-  },
-  {
-    "name": "rose-canyon",
-    "folder": "home",
-    "place": "Grand Canyon, Arizona"
-  },
-  {
-    "name": "saloon-66",
-    "folder": "home",
-    "place": "Route 66, Arizona"
-  },
-  {
-    "name": "san-francisco",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "sand-sunset",
-    "folder": "home",
-    "place": "Coral Pink Sand Dunes, Utah"
-  },
-  {
-    "name": "seligman-depot",
-    "folder": "home",
-    "place": "Seligman, Route 66, California"
-  },
-  {
-    "name": "sf-golden",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "simpson",
-    "folder": "home",
-    "place": "Los Angeles, California"
-  },
-  {
-    "name": "skul-joshua",
-    "folder": "home",
-    "place": "Joshua Tree National Park, California"
-  },
-  {
-    "name": "snow",
-    "folder": "home",
-    "place": "Coral Pink Sand Dunes, Utah"
-  },
-  {
-    "name": "sunlights-birds",
-    "folder": "home",
-    "place": "San Francisco, California"
-  },
-  {
-    "name": "sunrise-death",
-    "folder": "home",
-    "place": "Death Valley, California"
-  },
-  {
-    "name": "sunset-dune",
-    "folder": "home",
-    "place": "Coral Pink Sand Dunes, Utah"
-  },
-  {
-    "name": "tree-joshua",
-    "folder": "home",
-    "place": "Joshua Tree National Park, California"
-  },
-  {
-    "name": "valley-death",
-    "folder": "home",
-    "place": "Death Valley, California"
-  },
-  {
-    "name": "van-joshua",
-    "folder": "home",
-    "place": "Joshua Tree National Park, California"
-  },
-  {
-    "name": "venice",
-    "folder": "home",
-    "place": "Venice Beach, California"
-  },
-  {
-    "name": "architecture",
-    "folder": "home",
-    "place": "Palm Spring, California"
-  },
-  {
-    "name": "bigwheel",
-    "folder": "home",
-    "place": "Santa Monica, California"
-  },
-  {
-    "name": "gas-station",
-    "folder": "home",
-    "place": "Seligman, Route 66, California"
-  },
-  {
-    "name": "krustyland",
-    "folder": "home",
-    "place": "Los Angeles, California"
-  },
-  {
-    "name": "looping",
-    "folder": "home",
-    "place": "Santa Monica, California"
-  },
-  {
-    "name": "lunapark",
-    "folder": "home",
-    "place": "Santa Cruz, California"
-  },
-  {
-    "name": "palm-looping",
-    "folder": "home",
-    "place": "Santa Monica, California"
-  },
-  {
-    "name": "palm-spring",
-    "folder": "home",
-    "place": "Palm Spring, California"
-  },
-  {
-    "name": "popcorn",
-    "folder": "home",
-    "place": "Santa Monica, California"
-  },
-  {
-    "name": "road66",
-    "folder": "home",
-    "place": "Route 66, Arizona"
-  },
-  {
-    "name": "body-full-vincent",
-    "folder": "work",
-    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
-  },
-  {
-    "name": "launois-vincent",
-    "folder": "work",
-    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
-  },
-  {
-    "name": "nb-vincent",
-    "folder": "work",
-    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
-  },
-  {
-    "name": "ski-vincent",
-    "folder": "work",
-    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
-  },
-  {
-    "name": "vincent",
-    "folder": "work",
-    "place": "Shooting for Vincent Launois, ski instructor in Switzerland."
-  },
-  {
-    "name": "detail-easy-shop",
-    "folder": "work",
-    "place": "Shooting for Easy Shop Brussels"
-  },
-  {
-    "name": "easy-done-table",
-    "folder": "work",
-    "place": "Shooting for Easy Shop Brussels"
-  },
-  {
-    "name": "shoot-table-easy-shoot",
-    "folder": "work",
-    "place": "Shooting for Easy Shop Brussels"
-  },
-  {
-    "name": "enceinte",
-    "folder": "work",
-    "place": "Shooting for Mathilde & Robin"
-  },
-  {
-    "name": "baby-is-coming",
-    "folder": "work",
-    "place": "Shooting for Mathilde & Robin"
-  },
-  {
-    "name": "mathilde-robin",
-    "folder": "work",
-    "place": "Shooting for Mathilde & Robin"
-  },
-  {
-    "name": "robin-mathilde",
-    "folder": "work",
-    "place": "Shooting for Mathilde & Robin"
-  },
-  {
-    "name": "pregnant",
-    "folder": "work",
-    "place": "Shooting for Mathilde & Robin"
-  },
-  {
     "name": "blue-sky-essaouira",
     "folder": "morocco",
     "place": "Essaouira"
-  },  {
+  },
+  {
     "name": "bus-passenger",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "camel",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "cat-morocco",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "chair-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "desert-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "dog-morocco",
     "folder": "morocco",
     "place": "Taghazout"
-  },  {
+  },
+  {
     "name": "donkey-morocco",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "essaouira-skate-park",
     "folder": "morocco",
     "place": "Essaouira"
-  },  {
+  },
+  {
     "name": "essaouira-tower",
     "folder": "morocco",
     "place": "Essaouira"
-  },  {
+  },
+  {
     "name": "fiat-panda",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "fire-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "foot-pool-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "girl-sunset-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "hotel-essaouira",
     "folder": "morocco",
     "place": "Essaouira"
-  },  {
+  },
+  {
     "name": "jardin-douars",
     "folder": "morocco",
     "place": "Essaouira"
-  },  {
+  },
+  {
     "name": "koutoubia",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "le-pelerin",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "majorelle",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "medina-morocco",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "morocco-umbrella",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "moto-morocco",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "mountain-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "musee-ysl",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "nobody-desert",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "people-souk",
     "folder": "morocco",
     "place": "Essaouira"
-  },  {
+  },
+  {
     "name": "pool-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "pool-shadow-desert",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "reading-desert",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "restaurant-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "rooftop",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "scarabeo-desert",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "scarabeo-pool",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "skateboard-essaouira",
     "folder": "morocco",
     "place": "Taghazout"
-  },  {
+  },
+  {
     "name": "souks",
     "folder": "morocco",
     "place": "Marrakech"
-  },  {
+  },
+  {
     "name": "sunset-scarabeo",
     "folder": "morocco",
     "place": "Agafay Desert"
-  },  {
+  },
+  {
     "name": "sunset-essaouira",
     "folder": "morocco",
     "place": "Essaouira"
-  },  {
+  },
+  {
     "name": "taghazout-sunset",
     "folder": "morocco",
     "place": "Taghazout"
-  },  {
+  },
+  {
     "name": "tower-essaouira",
     "folder": "morocco",
     "place": "Essaouira"
-  },  {
+  },
+  {
     "name": "ysl",
     "folder": "morocco",
     "place": "Marrakech"

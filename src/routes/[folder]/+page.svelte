@@ -11,7 +11,7 @@
 
   onMount(() => {
     allPhotosFolder = pictures.filter((picture) => picture.folder === folder);
-    allPhotosFolder.sort((a, b) => b.name.localeCompare(a.name));
+    allPhotosFolder.sort((a, b) => a.place.localeCompare(b.place));
   });
 
   setTimeout(() => {

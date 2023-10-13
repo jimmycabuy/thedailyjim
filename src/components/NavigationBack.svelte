@@ -3,7 +3,7 @@
 </script>
 
 <div>
-  <a href={folder === "home" ? "/" : "/" + folder} class="go_back">
+  <a href={ "/" + folder} class="go_back">
     <svg
       width="20"
       height="20"

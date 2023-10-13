@@ -1,17 +1,19 @@
 <script>
   import Spinner from "./Spinner.svelte";
-  import { onMount } from "svelte";
   import pictures from "../data/pictures.json";
 
   let isLoading = true;
-  let galleryForHome = [];
 
-  onMount(() => {
-    galleryForHome = pictures
-      .filter((picture) => picture.folder === "home")
-      .sort((a, b) => b.name.localeCompare(a.name));
-  });
+  const uniquePictures = new Set();
 
+  while (uniquePictures.size < 80) {
+    const randomIndex = Math.floor(Math.random() * pictures.length);
+    uniquePictures.add(pictures[randomIndex]);
+  }
+
+  const randomObjects = Array.from(uniquePictures);
+
+  console.log(randomObjects.length);
   setTimeout(() => {
     isLoading = false;
   }, 1500);
@@ -22,18 +24,16 @@
 {/if}
 
 <article class="homegallery" class:is-loading={isLoading}>
-  {#each galleryForHome as photo, i}
+  {#each randomObjects as photo, i}
     <section>
       <div class="images">
-        <a href="/{photo.folder}/{photo.name}">
-          <img
-            src={`../../assets/${photo.folder}/${photo.name}.webp`}
-            alt={photo.name}
-            width="100%"
-            height="100%"
-            preload
-          />
-        </a>
+        <img
+          src={`../../assets/${photo.folder}/${photo.name}.webp`}
+          alt={photo.name}
+          width="100%"
+          height="100%"
+          preload
+        />
       </div>
     </section>
   {/each}
@@ -56,15 +56,6 @@
     transition: 0.3s ease;
   }
 
-  section:hover {
-    cursor: pointer;
-  }
-
-  @media (pointer: fine) {
-    section:hover {
-      filter: brightness(50%);
-    }
-  }
   /* smartphone  */
   @media (max-width: 767px) {
     article {

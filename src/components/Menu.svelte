@@ -34,8 +34,6 @@
     }
   });
 
-  const countShop = shop.length;
-
   const menuItem = [
     {
       label: "USA",
@@ -80,7 +78,7 @@
     {
       label: "SHOP",
       url: "/shop",
-      count: countShop,
+      count: shop.length,
     },
     {
       label: "CONTACT",
