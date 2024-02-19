@@ -91,12 +91,10 @@
 <svelte:window on:resize={handleResize} />
 
 <section class="section">
-  {#each menuItem as item, i}
+  {#each menuItem as item}
     <a
       href={item.url}
       class="div a"
-      data-sveltekit-preload-data
-      data-sveltekit-preload-code
       data-sveltekit-reload
     >
       <div>
