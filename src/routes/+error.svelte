@@ -3,6 +3,10 @@
   import { goto } from "$app/navigation";
 </script>
 
+<svelte:head>
+  <title>thedailyjim | Error</title>
+</svelte:head>
+
 <main>
   <h1>{$page.status}</h1>
   <h1>Oops! Page not found</h1>
@@ -34,7 +38,7 @@
     transition: 0.3s;
   }
 
-  button:hover{
+  button:hover {
     background: #000;
     color: #fff;
   }
