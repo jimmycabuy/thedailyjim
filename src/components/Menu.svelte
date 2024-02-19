@@ -24,7 +24,7 @@
     mexico: 0,
     costarica: 0,
     ecuador: 0,
-    morocco:0,
+    morocco: 0,
     europe: 0,
   };
 

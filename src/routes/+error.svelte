@@ -1,50 +1,41 @@
 <script>
-  export let status;
-  export let error;
-
-  const dev = process.env.NODE_ENV === "development";
+  import { page } from "$app/stores";
+  import { goto } from "$app/navigation";
 </script>
 
-<svelte:head>
-  <title>thedailyjim | {status}</title>
-</svelte:head>
-
-<div>
-  <h1>Oops...</h1>
-  <h1>{status}</h1>
-  <p>{error.message}</p>
-</div>
-
-{#if dev && error.stack}
-  <pre>{error.stack}</pre>
-{/if}
+<main>
+  <h1>{$page.status}</h1>
+  <h1>Oops! Page not found</h1>
+  <h4>Sorry, the page you are looking for does not exist.</h4>
+  <button on:click={() => goto("/")}>Homepage</button>
+</main>
 
 <style>
-  h1,
-  p {
-    margin: 0 auto;
-    font-family: bd-supper, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  h1 {
-    font-size: 2.8em;
-    font-weight: 700;
-    margin: 0 0 0.5em 0;
-  }
-
-  div {
+  main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 80vh;
+    z-index: 1;
+    font-family: "bd-supper", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    gap: 1rem;
+  }
+  button {
+    font-family: "bd-supper", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid black;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    background: none;
+    transition: 0.3s;
   }
 
-  @media (min-width: 480px) {
-    h1 {
-      font-size: 4em;
-    }
+  button:hover{
+    background: #000;
+    color: #fff;
   }
 </style>

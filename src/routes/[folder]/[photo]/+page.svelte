@@ -12,8 +12,6 @@
   let photoFromPage = (folder === "shop" ? shop : pictures).find(
     (item) => item.name === picture
   );
-
-
 </script>
 
 <svelte:head>
@@ -22,10 +20,10 @@
 
 <NavigationBack {folder} />
 
-{#if !photoFromPage.carrousel}
-  <Photo {folder} {picture} />
-{:else}
+{#if photoFromPage?.carrousel}
   <Carrousel {folder} carouselShopPhotos={photoFromPage.carrousel} />
+{:else}
+  <Photo {folder} {picture} />
 {/if}
 
 <PhotoText {photoFromPage} />
