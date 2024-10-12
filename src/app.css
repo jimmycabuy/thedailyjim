@@ -1,17 +1,9 @@
 @import url("https://use.typekit.net/qwm4icu.css");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
-  font-family: "bd-supper", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: transparent;
-  color: #fff;
 }
 
 html::-webkit-scrollbar {
@@ -26,15 +18,20 @@ html {
   scrollbar-width: none;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100dvh;
+  user-select: none;
+}
+
 a {
   text-decoration: none;
+  color: #000;
 }
 
-input:focus,
-textarea:focus {
-  outline: none;
-}
-
-html {
-  background-color: #121212;
+a:hover,
+button:hover {
+  cursor: pointer;
 }

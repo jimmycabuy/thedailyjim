@@ -1,0 +1,1297 @@
+[
+  {
+    "name": "architecture",
+    "folder": "usa",
+    "place": "Palm Spring, California"
+  },
+  {
+    "name": "bigwheel",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "gas-station",
+    "folder": "usa",
+    "place": "Seligman, Route 66, California"
+  },
+  {
+    "name": "krustyland",
+    "folder": "usa",
+    "place": "Los Angeles, California"
+  },
+  {
+    "name": "looping",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "lunapark",
+    "folder": "usa",
+    "place": "Santa Cruz, California"
+  },
+  {
+    "name": "palm-looping",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "palm-spring",
+    "folder": "usa",
+    "place": "Palm Spring, California"
+  },
+  {
+    "name": "popcorn",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "road66",
+    "folder": "usa",
+    "place": "Route 66, Arizona"
+  },
+  {
+    "name": "spring-palm-saguaro-hotel",
+    "folder": "usa",
+    "place": "Palm Spring, California"
+  },
+  {
+    "name": "palm-spring-saguaro",
+    "folder": "usa",
+    "place": "Palm Spring, California"
+  },
+  {
+    "name": "saguaro",
+    "folder": "usa",
+    "place": "Palm Spring, California"
+  },
+  {
+    "name": "santacruz",
+    "folder": "usa",
+    "place": "Santa Cruz, California"
+  },
+  {
+    "name": "seligman",
+    "folder": "usa",
+    "place": "Seligman, Route 66, California"
+  },
+  {
+    "name": "zabriskie-point",
+    "folder": "usa",
+    "place": "Death Valley, California"
+  },
+  {
+    "name": "golden-hour",
+    "folder": "mexico",
+    "place": "Valladolid, Yucatán"
+  },
+  {
+    "name": "valladolid",
+    "folder": "mexico",
+    "place": "Valladolid, Yucatán"
+  },
+  {
+    "name": "basket-color",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "lecorbusier",
+    "folder": "europe",
+    "place": "France"
+  },
+  {
+    "name": "basket-court",
+    "folder": "mexico",
+    "place": "Punta Allen, Quintana Roo"
+  },
+  {
+    "name": "bird",
+    "folder": "mexico",
+    "place": "Isla Holbox, Quintana Roo"
+  },
+  {
+    "name": "birds-sunset",
+    "folder": "mexico",
+    "place": "Isla Holbox, Yucatán"
+  },
+  {
+    "name": "boat",
+    "folder": "mexico",
+    "place": "Isla Holbox, Quintana Roo"
+  },
+  {
+    "name": "cancun",
+    "folder": "mexico",
+    "place": "Cancun, Quintana Roo"
+  },
+  {
+    "name": "coffee-shop",
+    "folder": "mexico",
+    "place": "Isla Holbox, Quintana Roo"
+  },
+  {
+    "name": "flamingo",
+    "folder": "mexico",
+    "place": "Ría Celestún, Yucatán"
+  },
+  {
+    "name": "golden-hour-valladolid",
+    "folder": "mexico",
+    "place": "Valladolid, Yucatán"
+  },
+  {
+    "name": "little-girl",
+    "folder": "mexico",
+    "place": "Isla Holbox, Quintana Roo"
+  },
+  {
+    "name": "moto",
+    "folder": "mexico",
+    "place": "Valladolid, Yucatán"
+  },
+  {
+    "name": "old-man-cowboy",
+    "folder": "mexico",
+    "place": "Valladolid, Yucatán"
+  },
+  {
+    "name": "old-woman",
+    "folder": "mexico",
+    "place": "Valladolid, Yucatán"
+  },
+  {
+    "name": "palm-golden-hour",
+    "folder": "mexico",
+    "place": "Isla Holbox, Quintana Roo"
+  },
+  {
+    "name": "punta-allen",
+    "folder": "mexico",
+    "place": "Punta Allen, Quintana Roo"
+  },
+  {
+    "name": "taxi",
+    "folder": "mexico",
+    "place": "Isla Holbox, Quintana Roo"
+  },
+  {
+    "name": "tulum-maya",
+    "folder": "mexico",
+    "place": "Tulum, Quintana Roo"
+  },
+  {
+    "name": "women-market",
+    "folder": "mexico",
+    "place": "Valladolid, Yucatán"
+  },
+  {
+    "name": "yellow",
+    "folder": "mexico",
+    "place": "Izamal, Yucatán"
+  },
+  {
+    "name": "ara",
+    "folder": "costarica",
+    "place": "Puerto Viejo, Limon"
+  },
+  {
+    "name": "arared",
+    "folder": "costarica",
+    "place": "Puerto Viejo, Limon"
+  },
+  {
+    "name": "basket",
+    "folder": "costarica",
+    "place": "Puerto Viejo, Limon"
+  },
+  {
+    "name": "bike-beach",
+    "folder": "costarica",
+    "place": "Sámara, Guanacaste"
+  },
+  {
+    "name": "coati",
+    "folder": "costarica",
+    "place": "Monteverde, Puntarenas"
+  },
+  {
+    "name": "colibri",
+    "folder": "costarica",
+    "place": "Monteverde, Puntarenas"
+  },
+  {
+    "name": "costarica-flag",
+    "folder": "costarica",
+    "place": "Sámara, Guanacaste"
+  },
+  {
+    "name": "defender",
+    "folder": "costarica",
+    "place": "Puerto Viejo, Limon"
+  },
+  {
+    "name": "face-girl",
+    "folder": "costarica",
+    "place": "Santa Teresa, Puntarenas"
+  },
+  {
+    "name": "golden-retriever",
+    "folder": "costarica",
+    "place": "Santa Teresa, Puntarenas"
+  },
+  {
+    "name": "monkey",
+    "folder": "costarica",
+    "place": "La Fortuna, Alajuela"
+  },
+  {
+    "name": "palm-mountain",
+    "folder": "costarica",
+    "place": "Monteverde, Puntarenas"
+  },
+  {
+    "name": "palm-shadow",
+    "folder": "costarica",
+    "place": "Manuel Antonio, Puntarenas"
+  },
+  {
+    "name": "palm-truck",
+    "folder": "costarica",
+    "place": "Puerto Viejo, Limon"
+  },
+  {
+    "name": "palm",
+    "folder": "costarica",
+    "place": "Monteverde, Puntarenas"
+  },
+  {
+    "name": "samara",
+    "folder": "costarica",
+    "place": "Sámara, Guanacaste"
+  },
+  {
+    "name": "sloth",
+    "folder": "costarica",
+    "place": "Cahuita, Limon"
+  },
+  {
+    "name": "surf-costarica",
+    "folder": "costarica",
+    "place": "Puerto Viejo, Limon"
+  },
+  {
+    "name": "surf-lesson",
+    "folder": "costarica",
+    "place": "Puerto Viejo, Limon"
+  },
+  {
+    "name": "surf-sunset",
+    "folder": "costarica",
+    "place": "Santa Teresa, Puntarenas"
+  },
+  {
+    "name": "surf",
+    "folder": "costarica",
+    "place": "Santa Teresa, Puntarenas"
+  },
+  {
+    "name": "toucan",
+    "folder": "costarica",
+    "place": "Puerto Viejo, Limon"
+  },
+  {
+    "name": "beach",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "boats",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "cute-sea-lion",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "fireball",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "football",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "iguan-tong",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "iguan",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "sea-lion-sunset",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "sea-lion",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "sea-lions-book",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "street",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "sunset-galapagos",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "turtle",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "gopro-turtle",
+    "folder": "ecuador",
+    "place": "Galápagos Islands"
+  },
+  {
+    "name": "bear",
+    "folder": "canada",
+    "place": "British Columbia, Canada"
+  },
+  {
+    "name": "bike",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "bird",
+    "folder": "canada",
+    "place": "Joffre Lakes, British Columbia"
+  },
+  {
+    "name": "black-bear",
+    "folder": "canada",
+    "place": "British Columbia, Canada"
+  },
+  {
+    "name": "bus",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "canada-place",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "canadian-tree",
+    "folder": "canada",
+    "place": "Jasper, Alberta"
+  },
+  {
+    "name": "forest",
+    "folder": "canada",
+    "place": "Joffre Lakes, British Columbia"
+  },
+  {
+    "name": "girl-dark",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "girl-vancouver",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "golden-hour",
+    "folder": "canada",
+    "place": "Jasper, Alberta"
+  },
+  {
+    "name": "hand-bird",
+    "folder": "canada",
+    "place": "Joffre Lakes, British Columbia"
+  },
+  {
+    "name": "india",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "kayak",
+    "folder": "canada",
+    "place": "Jasper, Alberta"
+  },
+  {
+    "name": "lake-mountain",
+    "folder": "canada",
+    "place": "Bow Lake, Alberta"
+  },
+  {
+    "name": "lake",
+    "folder": "canada",
+    "place": "Joffre Lakes, British Columbia"
+  },
+  {
+    "name": "long-road",
+    "folder": "canada",
+    "place": "Alberta, Canada"
+  },
+  {
+    "name": "louise-lake",
+    "folder": "canada",
+    "place": "Louise Lake, Alberta"
+  },
+  {
+    "name": "miror-lake",
+    "folder": "canada",
+    "place": "Mount Robson, British Columbia"
+  },
+  {
+    "name": "moose",
+    "folder": "canada",
+    "place": "Alberta, Canada"
+  },
+  {
+    "name": "mountain-snow",
+    "folder": "canada",
+    "place": "Alberta, Canada"
+  },
+  {
+    "name": "neon",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "plane",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "reflect",
+    "folder": "canada",
+    "place": "Banff, Alberta"
+  },
+  {
+    "name": "road",
+    "folder": "canada",
+    "place": "British Columbia, Canada"
+  },
+  {
+    "name": "salmon",
+    "folder": "canada",
+    "place": "British Columbia, Canada"
+  },
+  {
+    "name": "sunset",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "tabac",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "top-road",
+    "folder": "canada",
+    "place": "Jasper, Alberta"
+  },
+  {
+    "name": "tree-bird",
+    "folder": "canada",
+    "place": "Joffre Lakes, British Columbia"
+  },
+  {
+    "name": "trees",
+    "folder": "canada",
+    "place": "Bow Lake, Alberta"
+  },
+  {
+    "name": "vancouver",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "wapiti",
+    "folder": "canada",
+    "place": "Jasper, Alberta"
+  },
+  {
+    "name": "wheel",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "back",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "big-beach",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "bin",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "bird",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "cigar",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "colorful-houses",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "couple",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "dinner-van",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "girl-sunset",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "golden-hour",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "hat-van",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "kure",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "no-enter",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "orange",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "portugual-pic",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "seat-beach",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "shadow",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "shirt-hot",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "smile",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "stone-sea",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "sunset-boat",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "sunset-van",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "surf-session-sunset",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "sweet-home",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "two-birds",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "two-girls",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "umbrella-beach",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "vanlife",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "sea-beach-portugual",
+    "folder": "europe",
+    "place": "Portugal"
+  },
+  {
+    "name": "skate-girl",
+    "folder": "europe",
+    "place": "Belgium"
+  },
+  {
+    "name": "plane-crans-montana",
+    "folder": "europe",
+    "place": "Crans-Montana, Switzerland"
+  },
+  {
+    "name": "sunshine",
+    "folder": "canada",
+    "place": "Jasper, Alberta"
+  },
+  {
+    "name": "canada-lake",
+    "folder": "canada",
+    "place": "British Columbia, Canada"
+  },
+  {
+    "name": "canadian-tree-yellow",
+    "folder": "canada",
+    "place": "Banff, Alberta"
+  },
+  {
+    "name": "colorful-mountain",
+    "folder": "europe",
+    "place": "Switzerland"
+  },
+  {
+    "name": "lake-miror",
+    "folder": "canada",
+    "place": "Mount Robson, British Columbia"
+  },
+  {
+    "name": "mountain",
+    "folder": "europe",
+    "place": "Switzerland"
+  },
+  {
+    "name": "snow-sunset",
+    "folder": "europe",
+    "place": "Switzerland"
+  },
+  {
+    "name": "sunset-mountain",
+    "folder": "europe",
+    "place": "Switzerland"
+  },
+  {
+    "name": "4-palms-birds",
+    "folder": "usa",
+    "place": "Santa Cruz, California"
+  },
+  {
+    "name": "66-dinner",
+    "folder": "usa",
+    "place": "Route 66, Arizona"
+  },
+  {
+    "name": "a-golden-sf",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "abscract",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "antelope",
+    "folder": "usa",
+    "place": "Antelope Canyon, Arizona"
+  },
+  {
+    "name": "architecture-sf",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "beach-golden",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "beach-luna-park",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "beach-night",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "big-canyon",
+    "folder": "usa",
+    "place": "Grand Canyon, Arizona"
+  },
+  {
+    "name": "big-sur",
+    "folder": "usa",
+    "place": "Big Sur, California"
+  },
+  {
+    "name": "blur-girl-sf",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "bryce",
+    "folder": "usa",
+    "place": "Bryce Canyon, Utah"
+  },
+  {
+    "name": "cabines-luna-park",
+    "folder": "usa",
+    "place": "Santa Cruz, California"
+  },
+  {
+    "name": "cactus",
+    "folder": "usa",
+    "place": "Joshua Tree National Park, California"
+  },
+  {
+    "name": "coca-cola",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "cups",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "dance-roller",
+    "folder": "usa",
+    "place": "Venice Beach, California"
+  },
+  {
+    "name": "death-valley",
+    "folder": "usa",
+    "place": "Death Valley, California"
+  },
+  {
+    "name": "donkeys-van",
+    "folder": "usa",
+    "place": "Route 66, Arizona"
+  },
+  {
+    "name": "donkeys",
+    "folder": "usa",
+    "place": "Route 66, Arizona"
+  },
+  {
+    "name": "dune",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "falafel",
+    "folder": "usa",
+    "place": "Santa Cruz, California"
+  },
+  {
+    "name": "firesky",
+    "folder": "usa",
+    "place": "Mojave Desert, California"
+  },
+  {
+    "name": "girl-shadow",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "golden-bike",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "golden-dune",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "golden-gate",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "grand-canyon",
+    "folder": "usa",
+    "place": "Grand Canyon, Arizona"
+  },
+  {
+    "name": "helicopter",
+    "folder": "usa",
+    "place": "Grand Canyon, Arizona"
+  },
+  {
+    "name": "hockey",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "hotel-palm",
+    "folder": "usa",
+    "place": "Palm Spring, California"
+  },
+  {
+    "name": "joshua-cactus",
+    "folder": "usa",
+    "place": "Joshua Tree National Park, California"
+  },
+  {
+    "name": "joshua-road",
+    "folder": "usa",
+    "place": "Joshua Tree National Park, California"
+  },
+  {
+    "name": "lamp-shadow",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "mojave-fire",
+    "folder": "usa",
+    "place": "Mojave Desert, California"
+  },
+  {
+    "name": "moon-dune",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "moon-luna",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "moon-rose",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "moonlight",
+    "folder": "usa",
+    "place": "Mojave Desert, California"
+  },
+  {
+    "name": "motel-66",
+    "folder": "usa",
+    "place": "Seligman, Route 66, California"
+  },
+  {
+    "name": "mountain-moon",
+    "folder": "usa",
+    "place": "Mojave Desert, California"
+  },
+  {
+    "name": "night-beach",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "night-mojave",
+    "folder": "usa",
+    "place": "Mojave Desert, California"
+  },
+  {
+    "name": "orange-archi",
+    "folder": "usa",
+    "place": "Palm Spring, California"
+  },
+  {
+    "name": "orange-dune",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "orange-umbrella",
+    "folder": "usa",
+    "place": "Palm Spring, California"
+  },
+  {
+    "name": "park-van",
+    "folder": "usa",
+    "place": "Joshua Tree National Park, California"
+  },
+  {
+    "name": "pier-burger",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "powell",
+    "folder": "usa",
+    "place": "Lake Powell, Arizona"
+  },
+  {
+    "name": "pyramide-sf",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "rails-wheel",
+    "folder": "usa",
+    "place": "Santa Monica, California"
+  },
+  {
+    "name": "roller-couple",
+    "folder": "usa",
+    "place": "Venice Beach, California"
+  },
+  {
+    "name": "rose-canyon",
+    "folder": "usa",
+    "place": "Grand Canyon, Arizona"
+  },
+  {
+    "name": "rose-dune",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "saloon-66",
+    "folder": "usa",
+    "place": "Route 66, Arizona"
+  },
+  {
+    "name": "san-francisco",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "sand-dune",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "sand-sunset",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "seligman-depot",
+    "folder": "usa",
+    "place": "Seligman, Route 66, California"
+  },
+  {
+    "name": "sf-golden",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "simpson",
+    "folder": "usa",
+    "place": "Los Angeles, California"
+  },
+  {
+    "name": "skul-joshua",
+    "folder": "usa",
+    "place": "Joshua Tree National Park, California"
+  },
+  {
+    "name": "snow",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "sunlights-birds",
+    "folder": "usa",
+    "place": "San Francisco, California"
+  },
+  {
+    "name": "sunrise-death",
+    "folder": "usa",
+    "place": "Death Valley, California"
+  },
+  {
+    "name": "sunset-dune",
+    "folder": "usa",
+    "place": "Coral Pink Sand Dunes, Utah"
+  },
+  {
+    "name": "tree-joshua",
+    "folder": "usa",
+    "place": "Joshua Tree National Park, California"
+  },
+  {
+    "name": "valley-death",
+    "folder": "usa",
+    "place": "Death Valley, California"
+  },
+  {
+    "name": "van-joshua",
+    "folder": "usa",
+    "place": "Joshua Tree National Park, California"
+  },
+  {
+    "name": "venice",
+    "folder": "usa",
+    "place": "Venice Beach, California"
+  },
+  {
+    "name": "shenanigans",
+    "folder": "canada",
+    "place": "Vancouver, British Columbia"
+  },
+  {
+    "name": "blue-sky-essaouira",
+    "folder": "morocco",
+    "place": "Essaouira"
+  },
+  {
+    "name": "bus-passenger",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "camel",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "cat-morocco",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "chair-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "desert-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "dog-morocco",
+    "folder": "morocco",
+    "place": "Taghazout"
+  },
+  {
+    "name": "donkey-morocco",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "essaouira-skate-park",
+    "folder": "morocco",
+    "place": "Essaouira"
+  },
+  {
+    "name": "essaouira-tower",
+    "folder": "morocco",
+    "place": "Essaouira"
+  },
+  {
+    "name": "fiat-panda",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "fire-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "foot-pool-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "girl-sunset-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "hotel-essaouira",
+    "folder": "morocco",
+    "place": "Essaouira"
+  },
+  {
+    "name": "jardin-douars",
+    "folder": "morocco",
+    "place": "Essaouira"
+  },
+  {
+    "name": "koutoubia",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "le-pelerin",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "majorelle",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "medina-morocco",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "morocco-umbrella",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "moto-morocco",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "mountain-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "musee-ysl",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "nobody-desert",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "people-souk",
+    "folder": "morocco",
+    "place": "Essaouira"
+  },
+  {
+    "name": "pool-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "pool-shadow-desert",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "reading-desert",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "restaurant-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "rooftop",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "scarabeo-desert",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "scarabeo-pool",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "skateboard-essaouira",
+    "folder": "morocco",
+    "place": "Taghazout"
+  },
+  {
+    "name": "souks",
+    "folder": "morocco",
+    "place": "Marrakech"
+  },
+  {
+    "name": "sunset-scarabeo",
+    "folder": "morocco",
+    "place": "Agafay Desert"
+  },
+  {
+    "name": "sunset-essaouira",
+    "folder": "morocco",
+    "place": "Essaouira"
+  },
+  {
+    "name": "taghazout-sunset",
+    "folder": "morocco",
+    "place": "Taghazout"
+  },
+  {
+    "name": "tower-essaouira",
+    "folder": "morocco",
+    "place": "Essaouira"
+  },
+  {
+    "name": "ysl",
+    "folder": "morocco",
+    "place": "Marrakech"
+  }
+]

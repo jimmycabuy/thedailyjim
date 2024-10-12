@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Instagram",
+    "url": "https://www.instagram.com/thedailyjim",
+    "target": "_blank",
+    "rel": "noreferrer"
+  },
+  {
+    "label": "Facebook",
+    "url": "https://urlgeni.us/facebook/the_dailyjim",
+    "target": "_blank",
+    "rel": "noreferrer"
+  },
+  {
+    "label": "Telegram",
+    "url": "https://t.me/jimmycabuy",
+    "target": "_blank",
+    "rel": "noreferrer"
+  },
+  {
+    "label": "WhatsApp",
+    "url": "https://wa.me/32474917815",
+    "target": "_blank",
+    "rel": "noreferrer"
+  },
+  {
+    "label": "TikTok",
+    "url": "https://www.tiktok.com/@thedailyjim",
+    "target": "_blank",
+    "rel": "noreferrer"
+  },
+  {
+    "label": "Email",
+    "url": "mailto:jimmycabuy@hotmail.com?subject=Hi Jimmy, I need your talents 📸🚀",
+    "target": "_blank",
+    "rel": "noreferrer"
+  }
+]
